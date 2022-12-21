@@ -1,1985 +1,2203 @@
 {
-    "enVirtualMicInputs": {
-        "enPEQGainBass": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
+    "enVirtualMainOuts": {
+        "enBusLinkLevel": {
             "argumentType": "float",
-            "description": "Sets bass gain in the parametric EQ"
+            "description": "Set main out bus link level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
         },
-        "enPEQGainLowMid": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
+        "enBusTrimLevel": {
             "argumentType": "float",
-            "description": "Sets low-mid gain in the parametric EQ"
-        },
-        "enPEQGainMidHigh": {
+            "description": "Set main out bus trim level",
             "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets mid-high gain in the parametric EQ"
-        },
-        "enPEQGainTreble": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets treble gain in the parametric EQ"
-        },
-        "enPEQWidthBass": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets bass width in the parametric EQ"
-        },
-        "enPEQWidthLowMid": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets low-mid width in the parametric EQ"
-        },
-        "enPEQWidthMidHigh": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets mid-high gain in the parametric EQ"
-        },
-        "enPEQWidthTreble": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets treble gain in the parametric EQ"
-        },
-        "enPEQFrequencyBass": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets bass frequency in the parametric EQ"
-        },
-        "enPEQFrequencyLowMid": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets low-mid frequency in the parametric EQ"
-        },
-        "enPEQFrequencyMidHigh": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets mid-high frequency in the parametric EQ"
-        },
-        "enPEQFrequencyTreble": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets treble frequency in the parametric EQ"
+            "type": "enPPCRotaryMessage"
         },
         "enComLimRatio": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
             "argumentType": "float",
-            "description": "Sets compressor ratio"
+            "description": "Set main out compressor ratio",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
         },
         "enCompLimAttackTime": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
             "argumentType": "float",
-            "description": "Sets compressor attack time. 0=0.2ms, 0.35=1ms, 0.65=6ms, 1=20ms"
-        },
-        "enCompLimReleaseTime": {
+            "description": "Set main out compressor attack time",
             "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets compressor release time. 0=0.05s, 0.35=0.2s, 0.65=0.8s, 1=3s"
-        },
-        "enCompLimPresence": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets compresor presence. 0=-100dB, 0.35=-16dB, 0.65=-8dB, 1=-3dB"
-        },
-        "enCompLimThreshold": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets compressor threshold. 0=-50, 0.35=-25, 0.65=0, 1=25"
-        },
-        "enDynamicsOverallMakeUpGain": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets compressor make up gain. 0=0, 0.35=8, 0.65=16, 1=24"
+            "type": "enPPCRotaryMessage"
         },
         "enCompLimFilterFrequency": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
             "argumentType": "float",
-            "description": "Sets compressor filter frequency. 0=50hz, 0.35=300hz, 0.65=2.5khz, 1=15khz"
-        },
-        "enCompLimMoreIn": {
+            "description": "Set main out compressor filter frequency",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles compressor more"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompDetectorMode": {
+        "enCompLimRange": {
+            "argumentType": "float",
+            "description": "Set main out compressor range",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Cycles to next compressor mode"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompLimKnee": {
+        "enCompLimReleaseTime": {
+            "argumentType": "float",
+            "description": "Set main out compressor release time",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "isAbsolute": true,
-            "description": "Enables or disables compressor knee"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompLimIn": {
+        "enCompLimSoftClip": {
+            "argumentType": "float",
+            "description": "Set main out compressor soft clip",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles compressor"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompLimSideChainMenu": {
+        "enCompLimThreshold": {
+            "argumentType": "float",
+            "description": "Set main out compressor threshold",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Clicks the compressor sidechain menu button"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompLimFilterBandwidth": {
+        "enDirectInLevel": {
+            "argumentType": "float",
+            "description": "Set main out direct in level",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Clicks the compressor filter bandwidth button"
+            "type": "enPPCRotaryMessage"
         },
-        "enCompLimListen": {
+        "enDynamicsOverallMakeUpGain": {
+            "argumentType": "float",
+            "description": "Set main out gate make-up gain",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles listen for the compressor"
-        },
-        "enCompLimFiltersIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles compressor frequency filter"
-        },
-        "enCompState": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets compressor state"
-        },
-        "enCompDetMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets compressor detection meter"
-        },
-        "enCompGRMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets compressor GR meter"
-        },
-        "enExpGateListen": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles listen for the gate"
-        },
-        "enExpGateSideChainMenu": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Clicks the gate sidechain menu"
-        },
-        "enGateMode": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Cycles to next gate mode"
-        },
-        "enExpanderGateFilterBandwidth": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Clicks the gate filter bandwidth button"
-        },
-        "enExpGateFiltersIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles gate frequency filter"
-        },
-        "enExpGateIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles gate"
-        },
-        "enExpGRMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets GR meter for the expander gate"
-        },
-        "enGateState": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets gate state"
-        },
-        "enGateDetMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets gate detection meter"
-        },
-        "enPathname": {
-            "multiPath": true,
-            "type": "enPPCStringMessage",
-            "argumentType": "string",
-            "description": "Sets the input name/label (as shown on the LCDs)."
-        },
-        "enPathnamePrefix": {
-            "multiPath": true,
-            "type": "enPPCStringMessage",
-            "argumentType": "string",
-            "description": "Sets the input name/label prefix."
+            "type": "enPPCRotaryMessage"
         },
         "enFaderLevel": {
-            "multiPath": true,
-            "type": "enPPCFaderMessage",
             "argumentType": "float",
-            "description": "Sets input fader level (must be greater than 0 and less than 1, so minValue~=0.00001 and maxValue~=99.99999)"
+            "description": "Set main out fader level",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
+        },
+        "enGEQHighNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set main out EQ high notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQHPFrequency": {
+            "argumentType": "float",
+            "description": "Set main out EQ high-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQLowNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set main out EQ low notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQLPFrequency": {
+            "argumentType": "float",
+            "description": "Set main out EQ low-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enOutputDelay": {
+            "argumentType": "float",
+            "description": "Set main out delay",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand1": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand2": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand3": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand4": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand5": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand6": {
+            "argumentType": "float",
+            "description": "Set main out EQ frequency for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand1": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand2": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand3": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand4": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand5": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand6": {
+            "argumentType": "float",
+            "description": "Set main out EQ gain for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand1": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand2": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand3": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand4": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand5": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand6": {
+            "argumentType": "float",
+            "description": "Set main out EQ width for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
         },
         "enVCAFaderLevel": {
-            "multiPath": true,
-            "type": "enPPCFaderMessage",
-            "argumentType": "float",
-            "description": "Sets input VCA fader level (must be greater than 0 and less than 1, so minValue~=0.00001 and maxValue~=99.99999)"
-        },
-        "enDirectOutMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets the channel direct out meter"
-        },
-        "enMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets the channel meter"
-        },
-        "enInsertSendMeter": {
-            "multiPath": true,
-            "type": "enPPCMeterMessage",
-            "argumentType": null,
-            "description": "Gets the channel insert meter"
-        },
-        "enFaderImage": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel mono level SIS image"
-        },
-        "enFrontDivergence": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel front divergence (only when show->surround mode is set to quad or 5.1)"
-        },
-        "enRearDivergence": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel rear divergence (only when show->surround mode is set to quad or 5.1)"
-        },
-        "enFrontRearDivergence": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel front to rear divergence (only when show->surround mode is set to quad or 5.1)"
-        },
-        "enDirectOutLevel": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel direct out level"
-        },
-        "enInputDelay": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel input delay"
-        },
-        "enInputGain": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel input gain"
-        },
-        "enTapeReturnStepGain": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel tape return step gain"
-        },
-        "enMicSplitStepGain": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel micsplit return step gain"
-        },
-        "enInputLowPassFltFrequency": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel input low-pass filter frequency"
-        },
-        "enInputHighPassFltFrequency": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel input high-pass filter frequency"
-        },
-        "enSubLevel": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel sub level"
-        },
-        "enCentreLevel": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel centre level"
-        },
-        "enMCAFaderLevel1": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 1"
-        },
-        "enMCAFaderLevel2": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 2"
-        },
-        "enMCAFaderLevel3": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 3"
-        },
-        "enMCAFaderLevel4": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 4"
-        },
-        "enMCAFaderLevel5": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 5"
-        },
-        "enMCAFaderLevel6": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 6"
-        },
-        "enMCAFaderLevel7": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 7"
-        },
-        "enMCAFaderLevel8": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 8"
-        },
-        "enMCAFaderLevel9": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 9"
-        },
-        "enMCAFaderLevel10": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 10"
-        },
-        "enMCAFaderLevel11": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 11"
-        },
-        "enMCAFaderLevel12": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 12"
-        },
-        "enMCAFaderLevel13": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 13"
-        },
-        "enMCAFaderLevel14": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 14"
-        },
-        "enMCAFaderLevel15": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 15"
-        },
-        "enMCAFaderLevel16": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 16"
-        },
-        "enMCAFaderLevel17": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 17"
-        },
-        "enMCAFaderLevel18": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 18"
-        },
-        "enMCAFaderLevel19": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 19"
-        },
-        "enMCAFaderLevel20": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 20"
-        },
-        "enMCAFaderLevel21": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 21"
-        },
-        "enMCAFaderLevel22": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 22"
-        },
-        "enMCAFaderLevel23": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 23"
-        },
-        "enMCAFaderLevel24": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel MCA fader level for MCA 24"
-        },
-        "enSubSendPan1": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 1-2"
-        },
-        "enSubSendPan3": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 3-4"
-        },
-        "enSubSendPan5": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 5-6"
-        },
-        "enSubSendPan7": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 7-8"
-        },
-        "enSubSendPan9": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 9-10"
-        },
-        "enSubSendPan11": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 11-12"
-        },
-        "enSubSendPan13": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 13-14"
-        },
-        "enSubSendPan15": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for subsends 15-16"
-        },
-        "enMainSendPan1": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for main sends 1-2"
-        },
-        "enMainSendPan3": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for main sends 3-4"
-        },
-        "enMainSendPan5": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for main sends 5-6"
-        },
-        "enMainSendPan7": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel pan for main sends 7-8"
-        },
-        "enMainSendLevel1": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 1"
-        },
-        "enMainSendLevel2": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 2"
-        },
-        "enMainSendLevel3": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 3"
-        },
-        "enMainSendLevel4": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 4"
-        },
-        "enMainSendLevel5": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
             "argumentType": "float",
-            "description": "Sets channel level for main send 5"
-        },
-        "enMainSendLevel6": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 6"
-        },
-        "enMainSendLevel7": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 7"
-        },
-        "enMainSendLevel8": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for main send 8"
-        },
-        "enSubSendLevel1": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 1"
-        },
-        "enSubSendLevel2": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 2"
-        },
-        "enSubSendLevel3": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 3"
-        },
-        "enSubSendLevel4": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 4"
-        },
-        "enSubSendLevel5": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 5"
-        },
-        "enSubSendLevel6": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 6"
-        },
-        "enSubSendLevel7": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 7"
-        },
-        "enSubSendLevel8": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 8"
-        },
-        "enSubSendLevel9": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 9"
-        },
-        "enSubSendLevel10": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 10"
-        },
-        "enSubSendLevel11": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 11"
-        },
-        "enSubSendLevel12": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 12"
-        },
-        "enSubSendLevel13": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 13"
-        },
-        "enSubSendLevel14": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 14"
-        },
-        "enSubSendLevel15": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 15"
-        },
-        "enSubSendLevel16": {
-            "multiPath": true,
-            "type": "enPPCRotaryMessage",
-            "argumentType": "float",
-            "description": "Sets channel level for sub send 16"
-        },
-        "enMatrixSendRecallSafe1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 1"
-        },
-        "enMatrixSendRecallSafe2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 2"
-        },
-        "enMatrixSendRecallSafe3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 3"
-        },
-        "enMatrixSendRecallSafe4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 4"
-        },
-        "enMatrixSendRecallSafe5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 5"
-        },
-        "enMatrixSendRecallSafe6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 6"
-        },
-        "enMatrixSendRecallSafe7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 7"
-        },
-        "enMatrixSendRecallSafe8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 8"
-        },
-        "enMatrixSendRecallSafe9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 9"
-        },
-        "enMatrixSendRecallSafe10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 10"
-        },
-        "enMatrixSendRecallSafe11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 11"
-        },
-        "enMatrixSendRecallSafe12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 12"
-        },
-        "enMatrixSendRecallSafe13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 13"
-        },
-        "enMatrixSendRecallSafe14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 14"
-        },
-        "enMatrixSendRecallSafe15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 15"
-        },
-        "enMatrixSendRecallSafe16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel matrix send safe for matrix send 16"
-        },
-        "enMatrixSendStoreSafe1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 1"
-        },
-        "enMatrixSendStoreSafe2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 2"
-        },
-        "enMatrixSendStoreSafe3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 3"
-        },
-        "enMatrixSendStoreSafe4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 4"
-        },
-        "enMatrixSendStoreSafe5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 5"
-        },
-        "enMatrixSendStoreSafe6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 6"
-        },
-        "enMatrixSendStoreSafe7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 7"
-        },
-        "enMatrixSendStoreSafe8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 8"
-        },
-        "enMatrixSendStoreSafe9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 9"
-        },
-        "enMatrixSendStoreSafe10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 10"
-        },
-        "enMatrixSendStoreSafe11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 11"
-        },
-        "enMatrixSendStoreSafe12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 12"
-        },
-        "enMatrixSendStoreSafe13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 13"
-        },
-        "enMatrixSendStoreSafe14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 14"
-        },
-        "enMatrixSendStoreSafe15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 15"
-        },
-        "enMatrixSendStoreSafe16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel matrix send safe for matrix send 16"
-        },
-        "enFlipSendEnable": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles channel flip send"
-        },
-        "enFlipSendPreFade": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles channel flip send pre fade"
-        },
-        "enTapeInputEnable": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggles channel tape input"
-        },
-        "enVirtualSoundCheckEnableMask": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "VirtualSoundCheckEnableMask (unknown)"
-        },
-        "enSubMixSendRecallSafe1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 1"
-        },
-        "enSubMixSendRecallSafe2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 2"
-        },
-        "enSubMixSendRecallSafe3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 3"
-        },
-        "enSubMixSendRecallSafe4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 4"
-        },
-        "enSubMixSendRecallSafe5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 5"
-        },
-        "enSubMixSendRecallSafe6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 6"
-        },
-        "enSubMixSendRecallSafe7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 7"
-        },
-        "enSubMixSendRecallSafe8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 8"
-        },
-        "enSubMixSendRecallSafe9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 9"
-        },
-        "enSubMixSendRecallSafe10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 10"
-        },
-        "enSubMixSendRecallSafe11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 11"
-        },
-        "enSubMixSendRecallSafe12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 12"
-        },
-        "enSubMixSendRecallSafe13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 13"
-        },
-        "enSubMixSendRecallSafe14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 14"
-        },
-        "enSubMixSendRecallSafe15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 15"
-        },
-        "enSubMixSendRecallSafe16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel submix send safe for submix 16"
-        },
-        "enSubMixSendStoreSafe1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 1"
-        },
-        "enSubMixSendStoreSafe2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 2"
-        },
-        "enSubMixSendStoreSafe3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 3"
-        },
-        "enSubMixSendStoreSafe4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 4"
-        },
-        "enSubMixSendStoreSafe5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 5"
-        },
-        "enSubMixSendStoreSafe6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 6"
-        },
-        "enSubMixSendStoreSafe7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 7"
-        },
-        "enSubMixSendStoreSafe8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 8"
-        },
-        "enSubMixSendStoreSafe9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 9"
-        },
-        "enSubMixSendStoreSafe10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 10"
-        },
-        "enSubMixSendStoreSafe11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 11"
-        },
-        "enSubMixSendStoreSafe12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 12"
-        },
-        "enSubMixSendStoreSafe13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 13"
-        },
-        "enSubMixSendStoreSafe14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 14"
-        },
-        "enSubMixSendStoreSafe15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 15"
-        },
-        "enSubMixSendStoreSafe16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel submix send safe for submix 16"
-        },
-        "enAutoStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel auto safe"
-        },
-        "enMuteStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel mute safe"
-        },
-        "enFaderStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel fader safe"
-        },
-        "enRoutingStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel routing safe"
-        },
-        "enEQRecallSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel EQ safe"
-        },
-        "enDynamicsRecallSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel dynamics (gate) safe"
-        },
-        "enMicRecallSafe": {
+            "description": "Set main out VCA fader level",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel mic safe"
-        },
+            "type": "enPPCFaderMessage"
+        }
+    },
+    "enVirtualMicInputs": {
         "enAutoRecallSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "Recall channel auto safe"
-        },
-        "enMuteRecallSafe": {
+            "description": "Recall channel auto safe",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel mute safe"
-        },
-        "enFaderRecallSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel fader safe"
-        },
-        "enRoutingRecallSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Recall channel routing safe"
+            "type": "enPPCSwitchMessage"
         },
         "enAutoSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enAutoSafe (unknown)"
-        },
-        "enMuteSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMuteSafe (unknown)"
-        },
-        "enFaderSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enFaderSafe (unknown)"
-        },
-        "enRoutingSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enRoutingSafe (unknown)"
-        },
-        "enEQSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enEQSafe (unknown)"
-        },
-        "enDynamicsSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDynamicsSafe (gate) (unknown)"
-        },
-        "enMicSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMicSafe (unknown)"
-        },
-        "enEQStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel EQ safe"
-        },
-        "enDynamicsStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel dynamics (gate) safe"
-        },
-        "enMicStoreSafe": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Store channel mic safe"
-        },
-        "enMuteLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMuteLinked (unknown)"
-        },
-        "enSoloLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSoloLinked (unknown)"
-        },
-        "enMustBeLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMustBeLinked (unknown)"
-        },
-        "enSafesLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSafesLinked (unknown)"
-        },
-        "enDelayLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDelayLinked (unknown)"
-        },
-        "enHeadendLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enHeadendLinked (unknown)"
-        },
-        "enFiltersLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enFiltersLinked (unknown)"
-        },
-        "enPEQLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enPEQLinked (unknown)"
-        },
-        "enInsertLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enInsertLinked (unknown)"
-        },
-        "enDynamicsLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDynamicsLinked (gate) (unknown)"
-        },
-        "enDirInLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDirInLinked (unknown)"
-        },
-        "enDirOutLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDirOutLinked (unknown)"
-        },
-        "enBusSendsLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enBusSendsLinked (unknown)"
-        },
-        "enChannelLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enChannelLinked (unknown) - most likely the main method for linking a channel"
-        },
-        "enFaderAndMonoLevelLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enFaderAndMonoLevelLinked (unknown)"
-        },
-        "enRoutingLinked": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enRoutingLinked (unknown)"
-        },
-        "enSubMixSendEnableIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 1"
-        },
-        "enSubMixSendEnableIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 2"
-        },
-        "enSubMixSendEnableIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 3"
-        },
-        "enSubMixSendEnableIn4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 4"
-        },
-        "enSubMixSendEnableIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 5"
-        },
-        "enSubMixSendEnableIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 6"
-        },
-        "enSubMixSendEnableIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 7"
-        },
-        "enSubMixSendEnableIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 8"
-        },
-        "enSubMixSendEnableIn9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 9"
-        },
-        "enSubMixSendEnableIn10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 10"
-        },
-        "enSubMixSendEnableIn11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 11"
-        },
-        "enSubMixSendEnableIn12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 12"
-        },
-        "enSubMixSendEnableIn13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 13"
-        },
-        "enSubMixSendEnableIn14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 14"
-        },
-        "enSubMixSendEnableIn15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 15"
-        },
-        "enSubMixSendEnableIn16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel submix sends for submix 16"
-        },
-        "enMainSendEnableIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 1"
-        },
-        "enMainSendEnableIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 2"
-        },
-        "enMainSendEnableIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 3"
-        },
-        "enMainSendEnableIn4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 4"
-        },
-        "enMainSendEnableIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 5"
-        },
-        "enMainSendEnableIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 6"
-        },
-        "enMainSendEnableIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 7"
-        },
-        "enMainSendEnableIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel main sends for main send 8"
-        },
-        "enSubMixSendsPreFadeIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 1"
-        },
-        "enSubMixSendsPreFadeIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 2"
-        },
-        "enSubMixSendsPreFadeIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 3"
-        },
-        "enSubMixSendsPreFadeIn4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 4"
-        },
-        "enSubMixSendsPreFadeIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 5"
-        },
-        "enSubMixSendsPreFadeIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 6"
-        },
-        "enSubMixSendsPreFadeIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 7"
-        },
-        "enSubMixSendsPreFadeIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 8"
-        },
-        "enSubMixSendsPreFadeIn9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 9"
-        },
-        "enSubMixSendsPreFadeIn10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 10"
-        },
-        "enSubMixSendsPreFadeIn11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 11"
-        },
-        "enSubMixSendsPreFadeIn12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 12"
-        },
-        "enSubMixSendsPreFadeIn13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 13"
-        },
-        "enSubMixSendsPreFadeIn14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 14"
-        },
-        "enSubMixSendsPreFadeIn15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 15"
-        },
-        "enSubMixSendsPreFadeIn16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader submix sends for submix 16"
-        },
-        "enMainSendPreFadeIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 1"
-        },
-        "enMainSendPreFadeIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 2"
-        },
-        "enMainSendPreFadeIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 3"
-        },
-        "enMainSendPreFadeIn4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 4"
-        },
-        "enMainSendPreFadeIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 5"
-        },
-        "enMainSendPreFadeIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 6"
-        },
-        "enMainSendPreFadeIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 7"
-        },
-        "enMainSendPreFadeIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel pre-fader main sends for main send 8"
-        },
-        "enInputTalk": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel input talk"
-        },
-        "enDirectOutPre": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDirectOutPre (unknown)"
-        },
-        "enDirectOutAssign": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enDirectOutAssign (unknown)"
-        },
-        "enDirectOutActive": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "enDirectOutActive (unknown)"
-        },
-        "enInsertCompensated": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enInsertCompensated (unknown)"
-        },
-        "enInsertIn": {
+            "description": "enAutoSafe (unknown)",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel inserts"
+            "type": "enPPCSwitchMessage"
         },
-        "enInsertAssigned": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enAutoStoreSafe": {
             "argumentType": "integer",
-            "description": "enInsertAssigned (unknown)"
-        },
-        "enPEQIn": {
+            "description": "Store channel auto safe",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel EQ"
+            "type": "enPPCSwitchMessage"
         },
         "enBassShelfMode": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "Cycle channel EQ bass shelf modes"
+            "description": "Cycle channel EQ bass shelf modes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enTrebleShelfMode": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enBusSendsLinked": {
             "argumentType": "integer",
-            "description": "Cycle channel EQ treble shelf modes"
+            "description": "enBusSendsLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enPEQBassActive": {
+        "enCentreLevel": {
+            "argumentType": "float",
+            "description": "Sets channel centre level",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel EQ bass"
+            "type": "enPPCRotaryMessage"
         },
-        "enPEQLowMidActive": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enChannelLinked": {
             "argumentType": "integer",
-            "description": "Toggle channel EQ low-mid"
+            "description": "enChannelLinked (unknown) - most likely the main method for linking a channel",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enPEQHighMid": {
+        "enComLimRatio": {
+            "argumentType": "float",
+            "description": "Sets compressor ratio",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel EQ high-mid"
+            "type": "enPPCRotaryMessage"
         },
-        "enPEQTrebleActive": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enCompDetectorMode": {
             "argumentType": "integer",
-            "description": "Toggle channel EQ treble"
+            "description": "Cycles to next compressor mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enFaderStereoIn": {
+        "enCompDetMeter": {
+            "argumentType": null,
+            "description": "Gets compressor detection meter",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel stereo"
+            "type": "enPPCMeterMessage"
         },
-        "enFaderSISIn": {
+        "enCompGRMeter": {
+            "argumentType": null,
+            "description": "Gets compressor GR meter",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel SIS"
+            "type": "enPPCMeterMessage"
         },
-        "enInputHighPassFltSlope": {
+        "enCompLimAttackTime": {
+            "argumentType": "float",
+            "description": "Sets compressor attack time. 0=0.2ms, 0.35=1ms, 0.65=6ms, 1=20ms",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Cycle channel input high pass filter slopes"
+            "type": "enPPCRotaryMessage"
         },
-        "enInputHighPassFltIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enCompLimFilterBandwidth": {
             "argumentType": "integer",
-            "description": "Toggle channel input high pass filter"
+            "description": "Clicks the compressor filter bandwidth button",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enInputLowPassFltSlope": {
+        "enCompLimFilterFrequency": {
+            "argumentType": "float",
+            "description": "Sets compressor filter frequency. 0=50hz, 0.35=300hz, 0.65=2.5khz, 1=15khz",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Cycle channel input low pass filter slopes"
+            "type": "enPPCRotaryMessage"
         },
-        "enInputLowPassFltIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enCompLimFiltersIn": {
             "argumentType": "integer",
-            "description": "Toggle channel input low pass filter"
+            "description": "Toggles compressor frequency filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimIn": {
+            "argumentType": "integer",
+            "description": "Toggles compressor",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimKnee": {
+            "argumentType": "integer",
+            "description": "Enables or disables compressor knee",
+            "isAbsolute": true,
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimListen": {
+            "argumentType": "integer",
+            "description": "Toggles listen for the compressor",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimMoreIn": {
+            "argumentType": "integer",
+            "description": "Toggles compressor more",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimPresence": {
+            "argumentType": "float",
+            "description": "Sets compresor presence. 0=-100dB, 0.35=-16dB, 0.65=-8dB, 1=-3dB",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimReleaseTime": {
+            "argumentType": "float",
+            "description": "Sets compressor release time. 0=0.05s, 0.35=0.2s, 0.65=0.8s, 1=3s",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimSideChainMenu": {
+            "argumentType": "integer",
+            "description": "Clicks the compressor sidechain menu button",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimThreshold": {
+            "argumentType": "float",
+            "description": "Sets compressor threshold. 0=-50, 0.35=-25, 0.65=0, 1=25",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompState": {
+            "argumentType": null,
+            "description": "Gets compressor state",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enDelayLinked": {
+            "argumentType": "integer",
+            "description": "enDelayLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectOutActive": {
+            "argumentType": "integer",
+            "description": "enDirectOutActive (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectOutAssign": {
+            "argumentType": "integer",
+            "description": "enDirectOutAssign (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectOutLevel": {
+            "argumentType": "float",
+            "description": "Sets channel direct out level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enDirectOutMeter": {
+            "argumentType": null,
+            "description": "Gets the channel direct out meter",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
         },
         "enDirectOutMuteStatus": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "Toggle channel direct out mute"
+            "description": "Toggle channel direct out mute",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectOutPre": {
+            "argumentType": "integer",
+            "description": "enDirectOutPre (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
         "enDirectOutSolo": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "enDirectOutSolo (unknown)"
+            "description": "enDirectOutSolo (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
         "enDirectOutSoloB": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "enDirectOutSoloB (unknown)"
+            "description": "enDirectOutSoloB (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enMicSplitPhantomPowerIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDirInLinked": {
             "argumentType": "integer",
-            "description": "enMicSplitPhantomPowerIn (unknown)"
+            "description": "enDirInLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enMicSplitHPFIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDirOutLinked": {
             "argumentType": "integer",
-            "description": "enMicSplitHPFIn (unknown)"
+            "description": "enDirOutLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enMicSplitRemoteLEDInterogate": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDynamicsLinked": {
             "argumentType": "integer",
-            "description": "enMicSplitRemoteLEDInterogate (unknown)"
+            "description": "enDynamicsLinked (gate) (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enTapeReturnPhantomPowerIn": {
+        "enDynamicsOverallMakeUpGain": {
+            "argumentType": "float",
+            "description": "Sets compressor make up gain. 0=0, 0.35=8, 0.65=16, 1=24",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enTapeReturnPhantomPowerIn (unknown)"
+            "type": "enPPCRotaryMessage"
         },
-        "enInputPhaseIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDynamicsRecallSafe": {
             "argumentType": "integer",
-            "description": "Toggle channel input phase"
+            "description": "Recall channel dynamics (gate) safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enTapeReturnHPFIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDynamicsSafe": {
             "argumentType": "integer",
-            "description": "enTapeReturnHPFIn (unknown)"
+            "description": "enDynamicsSafe (gate) (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enTapeReturnRemoteLEDInterogate": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enDynamicsStoreSafe": {
             "argumentType": "integer",
-            "description": "enTapeReturnRemoteLEDInterogate (unknown)"
+            "description": "Store channel dynamics (gate) safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall channel EQ safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQSafe": {
+            "argumentType": "integer",
+            "description": "enEQSafe (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store channel EQ safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpanderGateFilterBandwidth": {
+            "argumentType": "integer",
+            "description": "Clicks the gate filter bandwidth button",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpGateFiltersIn": {
+            "argumentType": "integer",
+            "description": "Toggles gate frequency filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpGateIn": {
+            "argumentType": "integer",
+            "description": "Toggles gate",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpGateListen": {
+            "argumentType": "integer",
+            "description": "Toggles listen for the gate",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpGateSideChainMenu": {
+            "argumentType": "integer",
+            "description": "Clicks the gate sidechain menu",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExpGRMeter": {
+            "argumentType": null,
+            "description": "Gets GR meter for the expander gate",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enFaderAndMonoLevelLinked": {
+            "argumentType": "integer",
+            "description": "enFaderAndMonoLevelLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderImage": {
+            "argumentType": "float",
+            "description": "Sets channel mono level SIS image",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFaderLevel": {
+            "argumentType": "float",
+            "description": "Sets input fader level (must be greater than 0 and less than 1, so minValue~=0.00001 and maxValue~=99.99999)",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
         },
         "enFaderMonoIn": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "Toggle channel fader mono"
+            "description": "Toggle channel fader mono",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enSubMixAltSoloIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enFaderRecallSafe": {
             "argumentType": "integer",
-            "description": "enSubMixAltSoloIn1 (unknown)"
+            "description": "Recall channel fader safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enSubMixAltSoloIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enFaderSafe": {
             "argumentType": "integer",
-            "description": "enSubMixAltSoloIn2 (unknown)"
+            "description": "enFaderSafe (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
-        "enSubMixAltSoloIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
+        "enFaderSISIn": {
             "argumentType": "integer",
-            "description": "enSubMixAltSoloIn3 (unknown)"
-        },
-        "enSubMixAltSoloIn4": {
+            "description": "Toggle channel SIS",
             "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn4 (unknown)"
-        },
-        "enSubMixAltSoloIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn5 (unknown)"
-        },
-        "enSubMixAltSoloIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn6 (unknown)"
-        },
-        "enSubMixAltSoloIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn7 (unknown)"
-        },
-        "enSubMixAltSoloIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn8 (unknown)"
-        },
-        "enSubMixAltSoloIn9": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn9 (unknown)"
-        },
-        "enSubMixAltSoloIn10": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn10 (unknown)"
-        },
-        "enSubMixAltSoloIn11": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn11 (unknown)"
-        },
-        "enSubMixAltSoloIn12": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn12 (unknown)"
-        },
-        "enSubMixAltSoloIn13": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn13 (unknown)"
-        },
-        "enSubMixAltSoloIn14": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn14 (unknown)"
-        },
-        "enSubMixAltSoloIn15": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn15 (unknown)"
-        },
-        "enSubMixAltSoloIn16": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enSubMixAltSoloIn16 (unknown)"
-        },
-        "enMainSendAltSoloIn1": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn1 (unknown)"
-        },
-        "enMainSendAltSoloIn2": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn2 (unknown)"
-        },
-        "enMainSendAltSoloIn3": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn3 (unknown)"
-        },
-        "enMainSendAltSoloIn4": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn4 (unknown)"
-        },
-        "enMainSendAltSoloIn5": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn5 (unknown)"
-        },
-        "enMainSendAltSoloIn6": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn6 (unknown)"
-        },
-        "enMainSendAltSoloIn7": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn7 (unknown)"
-        },
-        "enMainSendAltSoloIn8": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "enMainSendAltSoloIn8 (unknown)"
-        },
-        "enFaderSoloB": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel solo B"
-        },
-        "enMuteStatus": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
-            "argumentType": "integer",
-            "description": "Toggle channel solo"
+            "type": "enPPCSwitchMessage"
         },
         "enFaderSolo": {
-            "multiPath": true,
-            "type": "enPPCSwitchMessage",
             "argumentType": "integer",
-            "description": "Toggle channel solo"
+            "description": "Toggle channel solo",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderSoloB": {
+            "argumentType": "integer",
+            "description": "Toggle channel solo B",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderStereoIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel stereo",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store channel fader safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFiltersLinked": {
+            "argumentType": "integer",
+            "description": "enFiltersLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFlipSendEnable": {
+            "argumentType": "integer",
+            "description": "Toggles channel flip send",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFlipSendPreFade": {
+            "argumentType": "integer",
+            "description": "Toggles channel flip send pre fade",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFrontDivergence": {
+            "argumentType": "float",
+            "description": "Sets channel front divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFrontRearDivergence": {
+            "argumentType": "float",
+            "description": "Sets channel front to rear divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGateDetMeter": {
+            "argumentType": null,
+            "description": "Gets gate detection meter",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enGateMode": {
+            "argumentType": "integer",
+            "description": "Cycles to next gate mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGateState": {
+            "argumentType": null,
+            "description": "Gets gate state",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enHeadendLinked": {
+            "argumentType": "integer",
+            "description": "enHeadendLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputDelay": {
+            "argumentType": "float",
+            "description": "Sets channel input delay",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enInputGain": {
+            "argumentType": "float",
+            "description": "Sets channel input gain",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enInputHighPassFltFrequency": {
+            "argumentType": "float",
+            "description": "Sets channel input high-pass filter frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enInputHighPassFltIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel input high pass filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputHighPassFltSlope": {
+            "argumentType": "integer",
+            "description": "Cycle channel input high pass filter slopes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputLowPassFltFrequency": {
+            "argumentType": "float",
+            "description": "Sets channel input low-pass filter frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enInputLowPassFltIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel input low pass filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputLowPassFltSlope": {
+            "argumentType": "integer",
+            "description": "Cycle channel input low pass filter slopes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputPhaseIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel input phase",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputTalk": {
+            "argumentType": "integer",
+            "description": "Toggle channel input talk",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertAssigned": {
+            "argumentType": "integer",
+            "description": "enInsertAssigned (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertCompensated": {
+            "argumentType": "integer",
+            "description": "enInsertCompensated (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel inserts",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertLinked": {
+            "argumentType": "integer",
+            "description": "enInsertLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertSendMeter": {
+            "argumentType": null,
+            "description": "Gets the channel insert meter",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enMainSendAltSoloIn1": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn1 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn2": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn2 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn3": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn3 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn4": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn4 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn5": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn5 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn6": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn6 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn7": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn7 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendAltSoloIn8": {
+            "argumentType": "integer",
+            "description": "enMainSendAltSoloIn8 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn1": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn2": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn3": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn4": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn5": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn6": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn7": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn8": {
+            "argumentType": "integer",
+            "description": "Toggle channel main sends for main send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendLevel1": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel2": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel3": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel4": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel5": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel6": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel7": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 7",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel8": {
+            "argumentType": "float",
+            "description": "Sets channel level for main send 8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan1": {
+            "argumentType": "float",
+            "description": "Sets channel pan for main sends 1-2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan3": {
+            "argumentType": "float",
+            "description": "Sets channel pan for main sends 3-4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan5": {
+            "argumentType": "float",
+            "description": "Sets channel pan for main sends 5-6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan7": {
+            "argumentType": "float",
+            "description": "Sets channel pan for main sends 7-8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPreFadeIn1": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn2": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn3": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn4": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn5": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn6": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn7": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn8": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader main sends for main send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe1": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe10": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe11": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe12": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe13": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe14": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe15": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe16": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe2": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe3": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe4": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe5": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe6": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe7": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe8": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendRecallSafe9": {
+            "argumentType": "integer",
+            "description": "Recall channel matrix send safe for matrix send 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe1": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe10": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe11": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe12": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe13": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe14": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe15": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe16": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe2": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe3": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe4": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe5": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe6": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe7": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe8": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendStoreSafe9": {
+            "argumentType": "integer",
+            "description": "Store channel matrix send safe for matrix send 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMCAFaderLevel1": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel10": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 10",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel11": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 11",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel12": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 12",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel13": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 13",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel14": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 14",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel15": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 15",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel16": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 16",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel17": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 17",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel18": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 18",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel19": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 19",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel2": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel20": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 20",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel21": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 21",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel22": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 22",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel23": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 23",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel24": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 24",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel3": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel4": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel5": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel6": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel7": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 7",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel8": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel9": {
+            "argumentType": "float",
+            "description": "Sets channel MCA fader level for MCA 9",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMeter": {
+            "argumentType": null,
+            "description": "Gets the channel meter",
+            "multiPath": true,
+            "type": "enPPCMeterMessage"
+        },
+        "enMicRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall channel mic safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSafe": {
+            "argumentType": "integer",
+            "description": "enMicSafe (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSplitHPFIn": {
+            "argumentType": "integer",
+            "description": "enMicSplitHPFIn (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSplitPhantomPowerIn": {
+            "argumentType": "integer",
+            "description": "enMicSplitPhantomPowerIn (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSplitRemoteLEDInterogate": {
+            "argumentType": "integer",
+            "description": "enMicSplitRemoteLEDInterogate (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSplitStepGain": {
+            "argumentType": "float",
+            "description": "Sets channel micsplit return step gain",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMicStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store channel mic safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMustBeLinked": {
+            "argumentType": "integer",
+            "description": "enMustBeLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteLinked": {
+            "argumentType": "integer",
+            "description": "enMuteLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall channel mute safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteSafe": {
+            "argumentType": "integer",
+            "description": "enMuteSafe (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteStatus": {
+            "argumentType": "integer",
+            "description": "Toggle channel solo",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store channel mute safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPathname": {
+            "argumentType": "string",
+            "description": "Sets the input name/label (as shown on the LCDs).",
+            "multiPath": true,
+            "type": "enPPCStringMessage"
+        },
+        "enPathnamePrefix": {
+            "argumentType": "string",
+            "description": "Sets the input name/label prefix.",
+            "multiPath": true,
+            "type": "enPPCStringMessage"
+        },
+        "enPEQBassActive": {
+            "argumentType": "integer",
+            "description": "Toggle channel EQ bass",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQFrequencyBass": {
+            "argumentType": "float",
+            "description": "Sets bass frequency in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyLowMid": {
+            "argumentType": "float",
+            "description": "Sets low-mid frequency in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyMidHigh": {
+            "argumentType": "float",
+            "description": "Sets mid-high frequency in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyTreble": {
+            "argumentType": "float",
+            "description": "Sets treble frequency in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBass": {
+            "argumentType": "float",
+            "description": "Sets bass gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainLowMid": {
+            "argumentType": "float",
+            "description": "Sets low-mid gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainMidHigh": {
+            "argumentType": "float",
+            "description": "Sets mid-high gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainTreble": {
+            "argumentType": "float",
+            "description": "Sets treble gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQHighMid": {
+            "argumentType": "integer",
+            "description": "Toggle channel EQ high-mid",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQIn": {
+            "argumentType": "integer",
+            "description": "Toggle channel EQ",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQLinked": {
+            "argumentType": "integer",
+            "description": "enPEQLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQLowMidActive": {
+            "argumentType": "integer",
+            "description": "Toggle channel EQ low-mid",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQTrebleActive": {
+            "argumentType": "integer",
+            "description": "Toggle channel EQ treble",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQWidthBass": {
+            "argumentType": "float",
+            "description": "Sets bass width in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthLowMid": {
+            "argumentType": "float",
+            "description": "Sets low-mid width in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthMidHigh": {
+            "argumentType": "float",
+            "description": "Sets mid-high gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthTreble": {
+            "argumentType": "float",
+            "description": "Sets treble gain in the parametric EQ",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enRearDivergence": {
+            "argumentType": "float",
+            "description": "Sets channel rear divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enRoutingLinked": {
+            "argumentType": "integer",
+            "description": "enRoutingLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall channel routing safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingSafe": {
+            "argumentType": "integer",
+            "description": "enRoutingSafe (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store channel routing safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSafesLinked": {
+            "argumentType": "integer",
+            "description": "enSafesLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSoloLinked": {
+            "argumentType": "integer",
+            "description": "enSoloLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubLevel": {
+            "argumentType": "float",
+            "description": "Sets channel sub level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubMixAltSoloIn1": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn1 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn10": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn10 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn11": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn11 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn12": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn12 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn13": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn13 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn14": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn14 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn15": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn15 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn16": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn16 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn2": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn2 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn3": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn3 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn4": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn4 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn5": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn5 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn6": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn6 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn7": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn7 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn8": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn8 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixAltSoloIn9": {
+            "argumentType": "integer",
+            "description": "enSubMixAltSoloIn9 (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn1": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn10": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn11": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn12": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn13": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn14": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn15": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn16": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn2": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn3": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn4": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn5": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn6": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn7": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn8": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendEnableIn9": {
+            "argumentType": "integer",
+            "description": "Toggle channel submix sends for submix 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe1": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe10": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe11": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe12": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe13": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe14": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe15": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe16": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe2": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe3": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe4": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe5": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe6": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe7": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe8": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendRecallSafe9": {
+            "argumentType": "integer",
+            "description": "Recall channel submix send safe for submix 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn1": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn10": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn11": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn12": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn13": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn14": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn15": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn16": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn2": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn3": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn4": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn5": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn6": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn7": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn8": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendsPreFadeIn9": {
+            "argumentType": "integer",
+            "description": "Toggle channel pre-fader submix sends for submix 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe1": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe10": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 10",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe11": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 11",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe12": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 12",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe13": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 13",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe14": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 14",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe15": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 15",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe16": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 16",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe2": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe3": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe4": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe5": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe6": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe7": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe8": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubMixSendStoreSafe9": {
+            "argumentType": "integer",
+            "description": "Store channel submix send safe for submix 9",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubSendLevel1": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel10": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 10",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel11": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 11",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel12": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 12",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel13": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 13",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel14": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 14",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel15": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 15",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel16": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 16",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel2": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel3": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel4": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel5": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel6": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel7": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 7",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel8": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendLevel9": {
+            "argumentType": "float",
+            "description": "Sets channel level for sub send 9",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan1": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 1-2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan11": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 11-12",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan13": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 13-14",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan15": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 15-16",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan3": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 3-4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan5": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 5-6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan7": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 7-8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enSubSendPan9": {
+            "argumentType": "float",
+            "description": "Sets channel pan for subsends 9-10",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enTapeInputEnable": {
+            "argumentType": "integer",
+            "description": "Toggles channel tape input",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enTapeReturnHPFIn": {
+            "argumentType": "integer",
+            "description": "enTapeReturnHPFIn (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enTapeReturnPhantomPowerIn": {
+            "argumentType": "integer",
+            "description": "enTapeReturnPhantomPowerIn (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enTapeReturnRemoteLEDInterogate": {
+            "argumentType": "integer",
+            "description": "enTapeReturnRemoteLEDInterogate (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enTapeReturnStepGain": {
+            "argumentType": "float",
+            "description": "Sets channel tape return step gain",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enTrebleShelfMode": {
+            "argumentType": "integer",
+            "description": "Cycle channel EQ treble shelf modes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enVCAFaderLevel": {
+            "argumentType": "float",
+            "description": "Sets input VCA fader level (must be greater than 0 and less than 1, so minValue~=0.00001 and maxValue~=99.99999)",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
+        },
+        "enVirtualSoundCheckEnableMask": {
+            "argumentType": "integer",
+            "description": "VirtualSoundCheckEnableMask (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         }
     }
 }
