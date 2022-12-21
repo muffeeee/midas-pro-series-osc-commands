@@ -13,7 +13,7 @@ The pro-series OSC commands usually consist of an OSC command consisting of thre
     - `enPPCMeterMessage`: A read-only command for reading out meters. Returns a float value between 0 and 1, and as such, is subject to the same hurdles as enPPCRotaryMessage.
     - `enPPCSwitchMessage`: A boolean message, represented as an integer of 0 and 1. Nearly all of these are toggles, where sending an integer of 1 will toggle the switch.
     - `enPPCOtherMessage`: I'm not yet sure what this message type does yet.
-2. The group of message. Right now this specification only contains parameter nodes for the `enPPCVirtualMicInputs` group. More groups will be added soon.
+2. The group of message. Right now this specification only contains parameter nodes for the `enPPCVirtualMicInputs` group, and some for the `enPPCVirtualMainOuts`. More groups will be added soon.
 3. The paremeter node you want to change. For example `enFaderLevel`.
 
 Last, but not least, the command may also end with an integer, if the command can control multiple instances of a thing (e.g. multiple microphone inputs). For `enVirtualMicInputs` this is the index of the microphone input you want to change. Please note that this is 0-indexed, so input 1 is index 0 (`/enPPCFaderMessage/enVirtualMicInputs/enFaderLevel/0`).
@@ -23,7 +23,7 @@ All commands support both getting and setting a value. To get a value, you simpl
 ## JSON specification syntax
 The pro series features a massive amount of parameters to control, and as such, a massive amount of commands have been found on OSC. It's not clear what they all do, and some are mere duplicates of each other but with a slight twist. Some even have typos in them. I have therefore made a simple JSON file with the currently discovered commands in order to keep it organized.
 
-The JSON file contains an object that contains the control groups. For now, the only group added is `enVirtualMicInputs`. This object then contains all the parameter nodes that you can get and/or set.
+The JSON file contains an object that contains the control groups. This object then contains all the parameter nodes that you can get and/or set.
 
 Each node contains some documentation in the following format:
 - `multiPath`: Whether or not the node contains multiple instances. All nodes in `enVirtualMicInputs` do, but some nodes in other groups may only control one thing.
