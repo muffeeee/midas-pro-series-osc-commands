@@ -13,7 +13,7 @@ The pro-series OSC commands usually consist of an OSC command consisting of thre
     - `enPPCMeterMessage`: A read-only command for reading out meters. Returns a float value between 0 and 1, and as such, is subject to the same hurdles as enPPCRotaryMessage.
     - `enPPCSwitchMessage`: A boolean message, represented as an integer of 0 and 1. Nearly all of these are toggles, where sending an integer of 1 will toggle the switch.
     - `enPPCOtherMessage`: I'm not yet sure what this message type does yet.
-2. The group of message. Right now this specification only contains parameter nodes for the `enPPCVirtualMicInputs` group, and some for the `enPPCVirtualMainOuts`. More groups will be added soon.
+2. The group of message. For example `enPPCVirtualMicInputs`.
 3. The paremeter node you want to change. For example `enFaderLevel`.
 
 Last, but not least, the command may also end with an integer, if the command can control multiple instances of a thing (e.g. multiple microphone inputs). For `enVirtualMicInputs` this is the index of the microphone input you want to change. Please note that this is 0-indexed, so input 1 is index 0 (`/enPPCFaderMessage/enVirtualMicInputs/enFaderLevel/0`).
