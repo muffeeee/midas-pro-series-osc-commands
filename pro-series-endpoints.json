@@ -1,25 +1,17 @@
-{ // enVirtualSubMixes = auxes
-
-    "enVirtualMasters": {
-        "enOutputDelay": {
-            "argumentType": "float",
-            "description": "Set master output delay",
-            "multiPath": true,
+{
+    "enGlobals": {
+        "enGlobalTempo": {
+            "argumentType": null,
+            "description": "Get the global tempo rate",
+            "multiPath": false,
             "type": "enPPCRotaryMessage"
         },
-        "enPEQWidthBand1": {
-            "argumentType": "float",
-            "description": "Set master EQ width for band 1",
-            "multiPath": true,
+        "enTemperature": {
+            "argumentType": null,
+            "description": "Get the system temperature in degrees C",
+            "multiPath": false,
             "type": "enPPCRotaryMessage"
-        },
-        
-        "enPEQWidthBand2": {
-            "argumentType": "float",
-            "description": "Set master EQ width for band 2",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
+        }
     },
     "enVirtualMainOuts": {
         "enBusLinkLevel": {
@@ -237,7 +229,1036 @@
             "description": "Set matrix out VCA fader level",
             "multiPath": true,
             "type": "enPPCFaderMessage"
+        }
+    },
+    "enVirtualMasters": {
+        "enAutoRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master auto safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
         },
+        "enAutoSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master auto safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAutoStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master auto safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enBusLinkLevel": {
+            "argumentType": "float",
+            "description": "Set master bus link level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enBusSendsLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options bus sends",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enBusTrimLevel": {
+            "argumentType": "float",
+            "description": "Set master EQ bus trim level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCentreLevel": {
+            "argumentType": "float",
+            "description": "Set master centre level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enChannelLinked": {
+            "argumentType": "integer",
+            "description": "enChannelLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enComLimRatio": {
+            "argumentType": "float",
+            "description": "Set master compressor ratio",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompDetectorMode": {
+            "argumentType": "integer",
+            "description": "Cycles to next compressor mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimAttackTime": {
+            "argumentType": "float",
+            "description": "Set master compressor attack time",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimFilterBandwidth": {
+            "argumentType": "integer",
+            "description": "Clicks the compressor filter bandwidth button",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimFilterFrequency": {
+            "argumentType": "float",
+            "description": "Set master compressor filter frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimFiltersIn": {
+            "argumentType": "integer",
+            "description": "Toggles compressor frequency filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimIn": {
+            "argumentType": "integer",
+            "description": "Toggles compressor",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimKnee": {
+            "argumentType": "integer",
+            "description": "Enables or disables compressor knee",
+            "isAbsolute": true,
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimListen": {
+            "argumentType": "integer",
+            "description": "Toggles listen for the compressor",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimMoreIn": {
+            "argumentType": "integer",
+            "description": "Toggles compressor more",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimPresence": {
+            "argumentType": "float",
+            "description": "Sets compresor presence. 0=-100dB, 0.35=-16dB, 0.65=-8dB, 1=-3dB",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimRange": {
+            "argumentType": "float",
+            "description": "Set master compressor range",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimReleaseTime": {
+            "argumentType": "float",
+            "description": "Set master compressor release time",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimSideChainMenu": {
+            "argumentType": "integer",
+            "description": "Clicks the compressor sidechain menu button",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCompLimSoftClip": {
+            "argumentType": "float",
+            "description": "Set master compressor soft clip",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimThreshold": {
+            "argumentType": "float",
+            "description": "Set master compressor threshold",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCopyMasterFader": {
+            "argumentType": "integer",
+            "description": "enCopyMasterFader (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enCopyStereoMasterBus": {
+            "argumentType": "integer",
+            "description": "enCopyStereoMasterBus (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDelayLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options delay",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectInCompensated": {
+            "argumentType": "integer",
+            "description": "enDirectInCompensated (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirectInLevel": {
+            "argumentType": "float",
+            "description": "Set master direct in level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enDirInLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options direct in",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDirOutLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options direct out",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDynamicsLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options dynamics",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDynamicsOverallMakeUpGain": {
+            "argumentType": "float",
+            "description": "Set master compressor make-up gain",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enDynamicsRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master dynamics (gate) safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDynamicsSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master dynamics safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDynamicsStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master dynamics (gate) safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master EQ safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master EQ safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderAndMonoLevelLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options fader",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderImage": {
+            "argumentType": "float",
+            "description": "Set master mono level SIS image",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFaderLevel": {
+            "argumentType": "float",
+            "description": "Set master fader level",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
+        },
+        "enFaderPan": {
+            "argumentType": "float",
+            "description": "Set master pan",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFaderRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master fader safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderRemoteLEDInterrogate": {
+            "argumentType": "integer",
+            "description": "enFaderRemoteLEDInterrogate (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master fader safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master fader safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFiltersLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options filters",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFrontDivergence": {
+            "argumentType": "float",
+            "description": "Sets master front divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFrontRearDivergence": {
+            "argumentType": "float",
+            "description": "Sets master front to rear divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQCompensated": {
+            "argumentType": "integer",
+            "description": "enGEQCompensated (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQHighNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set master EQ high-notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQHighNotchIn": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ high notch",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQHighPassIn": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ high-pass filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQHighPassSlope": {
+            "argumentType": "integer",
+            "description": "Cycle master EQ high-pass slopes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQHPFrequency": {
+            "argumentType": "float",
+            "description": "Set master EQ high-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQIn": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQLowNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set master EQ low-notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQLowNotchIn": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ low notch",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQLowPassIn": {
+            "argumentType": "integer",
+            "description": "Toggle master EQ low-pass filter",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQLowPassSlope": {
+            "argumentType": "integer",
+            "description": "Cycle master EQ low-pass slopes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGEQLPFrequency": {
+            "argumentType": "float",
+            "description": "Set master EQ low-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enHeadendLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options input controls",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertAssigned": {
+            "argumentType": "integer",
+            "description": "enInsertAssigned (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertCompensated": {
+            "argumentType": "integer",
+            "description": "enInsertCompensated (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertIn": {
+            "argumentType": "integer",
+            "description": "Toggle master inserts",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options insert",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn1": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn2": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn3": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn4": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn5": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn6": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn7": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendEnableIn8": {
+            "argumentType": "integer",
+            "description": "Toggle master main sends for main send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendLevel1": {
+            "argumentType": "float",
+            "description": "Set master aux 1 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel2": {
+            "argumentType": "float",
+            "description": "Set master aux 2 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel3": {
+            "argumentType": "float",
+            "description": "Set master aux 3 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel4": {
+            "argumentType": "float",
+            "description": "Set master aux 4 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel5": {
+            "argumentType": "float",
+            "description": "Set master aux 5 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel6": {
+            "argumentType": "float",
+            "description": "Set master aux 6 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel7": {
+            "argumentType": "float",
+            "description": "Set master aux 7 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendLevel8": {
+            "argumentType": "float",
+            "description": "Set master aux 8 send level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan1": {
+            "argumentType": "float",
+            "description": "Set master aux 1-2 pan",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan3": {
+            "argumentType": "float",
+            "description": "Set master aux 3-4 pan",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan5": {
+            "argumentType": "float",
+            "description": "Set master aux 5-6 pan",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPan7": {
+            "argumentType": "float",
+            "description": "Set master aux 7-8 pan",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMainSendPreFadeIn1": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 1",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn2": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 2",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn3": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 3",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn4": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 4",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn5": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 5",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn6": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 6",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn7": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 7",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMainSendPreFadeIn8": {
+            "argumentType": "integer",
+            "description": "Toggle master pre-fader main sends for main send 8",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMCAFaderLevel1": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel10": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 10",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel11": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 11",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel12": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 12",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel13": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 13",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel14": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 14",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel15": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 15",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel16": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 16",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel17": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 17",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel18": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 18",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel19": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 19",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel2": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel20": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 20",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel21": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 21",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel22": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 22",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel23": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 23",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel24": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 24",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel3": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel4": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel5": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel6": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel7": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 7",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel8": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 8",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMCAFaderLevel9": {
+            "argumentType": "float",
+            "description": "Set master MCA fader level for MCA 9",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enMicRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master mic safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master mic safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master mic safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMustBeLinked": {
+            "argumentType": "integer",
+            "description": "enMustBeLinked (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options mute",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master mute safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master mute safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteStatus": {
+            "argumentType": "integer",
+            "description": "Toggle master mute",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMuteStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master mute safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputDelay": {
+            "argumentType": "float",
+            "description": "Set master output delay",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enOutputPEQBand1Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand1Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand1Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 1 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand2Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand2Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand2Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 2 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand3Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand3Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand3Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 3 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand4Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand4Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand4Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 4 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand5Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand5Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand5Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 5 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand6Active": {
+            "argumentType": "integer",
+            "description": "enOutputPEQBand6Active (unknown)",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQBand6Mode": {
+            "argumentType": "integer",
+            "description": "Cycle master output EQ band 6 mode",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputPEQIn": {
+            "argumentType": "integer",
+            "description": "Toggle master output EQ",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQFrequencyBand1": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand2": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand3": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand4": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand5": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand6": {
+            "argumentType": "float",
+            "description": "Set master EQ frequency for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand1": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand2": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand3": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand4": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand5": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand6": {
+            "argumentType": "float",
+            "description": "Set master EQ gain for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options EQ",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPEQWidthBand1": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand2": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand3": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand4": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand5": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand6": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPhaseInvert": {
+            "argumentType": "integer",
+            "description": "Toggle master phase invert",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRearDivergence": {
+            "argumentType": "float",
+            "description": "Sets master rear divergence (only when show->surround mode is set to quad or 5.1)",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enRoutingLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options routing",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingRecallSafe": {
+            "argumentType": "integer",
+            "description": "Recall master routing safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingSafe": {
+            "argumentType": "integer",
+            "description": "Toggle master routing safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingStoreSafe": {
+            "argumentType": "integer",
+            "description": "Store master routing safe",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSafesLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options safes",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSoloLinked": {
+            "argumentType": "integer",
+            "description": "Toggle master link options solo",
+            "multiPath": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubLevel": {
+            "argumentType": "float",
+            "description": "Set master sub level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enVCAFaderLevel": {
+            "argumentType": "float",
+            "description": "Set master VCA fader level",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
+        }
     },
     "enVirtualMicInputs": {
         "enAutoRecallSafe": {
@@ -278,7 +1299,7 @@
         },
         "enChannelLinked": {
             "argumentType": "integer",
-            "description": "enChannelLinked (unknown) - most likely the main method for linking a channel",
+            "description": "enChannelLinked (unknown)",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1371,7 +2392,7 @@
         },
         "enMuteStatus": {
             "argumentType": "integer",
-            "description": "Toggle channel solo",
+            "description": "Toggle channel mute",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -2220,6 +3241,14 @@
             "description": "VirtualSoundCheckEnableMask (unknown)",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
+        }
+    },
+    "enVirtualSubMixes": {
+        "enFaderLevel": {
+            "argumentType": "float",
+            "description": "Set aux fader level",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
         }
     }
 }
