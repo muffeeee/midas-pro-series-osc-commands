@@ -1,221 +1,243 @@
-{
-    "enVirtualMainOuts": {
-        "enBusLinkLevel": {
-            "argumentType": "float",
-            "description": "Set main out bus link level",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enBusTrimLevel": {
-            "argumentType": "float",
-            "description": "Set main out bus trim level",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enComLimRatio": {
-            "argumentType": "float",
-            "description": "Set main out compressor ratio",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimAttackTime": {
-            "argumentType": "float",
-            "description": "Set main out compressor attack time",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimFilterFrequency": {
-            "argumentType": "float",
-            "description": "Set main out compressor filter frequency",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimRange": {
-            "argumentType": "float",
-            "description": "Set main out compressor range",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimReleaseTime": {
-            "argumentType": "float",
-            "description": "Set main out compressor release time",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimSoftClip": {
-            "argumentType": "float",
-            "description": "Set main out compressor soft clip",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enCompLimThreshold": {
-            "argumentType": "float",
-            "description": "Set main out compressor threshold",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enDirectInLevel": {
-            "argumentType": "float",
-            "description": "Set main out direct in level",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enDynamicsOverallMakeUpGain": {
-            "argumentType": "float",
-            "description": "Set main out gate make-up gain",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enFaderLevel": {
-            "argumentType": "float",
-            "description": "Set main out fader level",
-            "multiPath": true,
-            "type": "enPPCFaderMessage"
-        },
-        "enGEQHighNotchFrequency": {
-            "argumentType": "float",
-            "description": "Set main out EQ high notch frequency",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enGEQHPFrequency": {
-            "argumentType": "float",
-            "description": "Set main out EQ high-pass frequency",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enGEQLowNotchFrequency": {
-            "argumentType": "float",
-            "description": "Set main out EQ low notch frequency",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enGEQLPFrequency": {
-            "argumentType": "float",
-            "description": "Set main out EQ low-pass frequency",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
+{ // enVirtualSubMixes = auxes
+
+    "enVirtualMasters": {
         "enOutputDelay": {
             "argumentType": "float",
-            "description": "Set main out delay",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand1": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 1",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand2": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 2",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand3": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 3",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand4": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 4",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand5": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 5",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQFrequencyBand6": {
-            "argumentType": "float",
-            "description": "Set main out EQ frequency for band 6",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand1": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 1",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand2": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 2",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand3": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 3",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand4": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 4",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand5": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 5",
-            "multiPath": true,
-            "type": "enPPCRotaryMessage"
-        },
-        "enPEQGainBand6": {
-            "argumentType": "float",
-            "description": "Set main out EQ gain for band 6",
+            "description": "Set master output delay",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand1": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 1",
+            "description": "Set master EQ width for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        
+        "enPEQWidthBand2": {
+            "argumentType": "float",
+            "description": "Set master EQ width for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+    },
+    "enVirtualMainOuts": {
+        "enBusLinkLevel": {
+            "argumentType": "float",
+            "description": "Set matrix out bus link level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enBusTrimLevel": {
+            "argumentType": "float",
+            "description": "Set matrix out bus trim level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enComLimRatio": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor ratio",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimAttackTime": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor attack time",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimFilterFrequency": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor filter frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimRange": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor range",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimReleaseTime": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor release time",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimSoftClip": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor soft clip",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enCompLimThreshold": {
+            "argumentType": "float",
+            "description": "Set matrix out compressor threshold",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enDirectInLevel": {
+            "argumentType": "float",
+            "description": "Set matrix out direct in level",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enDynamicsOverallMakeUpGain": {
+            "argumentType": "float",
+            "description": "Set matrix out gate make-up gain",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enFaderLevel": {
+            "argumentType": "float",
+            "description": "Set matrix out fader level",
+            "multiPath": true,
+            "type": "enPPCFaderMessage"
+        },
+        "enGEQHighNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ high notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQHPFrequency": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ high-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQLowNotchFrequency": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ low notch frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enGEQLPFrequency": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ low-pass frequency",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enOutputDelay": {
+            "argumentType": "float",
+            "description": "Set matrix out delay",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand1": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand2": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand3": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand4": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand5": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQFrequencyBand6": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ frequency for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand1": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 1",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand2": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 2",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand3": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 3",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand4": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 4",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand5": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 5",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQGainBand6": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ gain for band 6",
+            "multiPath": true,
+            "type": "enPPCRotaryMessage"
+        },
+        "enPEQWidthBand1": {
+            "argumentType": "float",
+            "description": "Set matrix out EQ width for band 1",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand2": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 2",
+            "description": "Set matrix out EQ width for band 2",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand3": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 3",
+            "description": "Set matrix out EQ width for band 3",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand4": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 4",
+            "description": "Set matrix out EQ width for band 4",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand5": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 5",
+            "description": "Set matrix out EQ width for band 5",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enPEQWidthBand6": {
             "argumentType": "float",
-            "description": "Set main out EQ width for band 6",
+            "description": "Set matrix out EQ width for band 6",
             "multiPath": true,
             "type": "enPPCRotaryMessage"
         },
         "enVCAFaderLevel": {
             "argumentType": "float",
-            "description": "Set main out VCA fader level",
+            "description": "Set matrix out VCA fader level",
             "multiPath": true,
             "type": "enPPCFaderMessage"
-        }
+        },
     },
     "enVirtualMicInputs": {
         "enAutoRecallSafe": {
