@@ -226,7 +226,7 @@
         },
         "enAutoSafe": {
             "argumentType": "integer",
-            "description": "enAutoSafe (unknown)",
+            "description": "Toggle channel auto safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -244,7 +244,7 @@
         },
         "enBusSendsLinked": {
             "argumentType": "integer",
-            "description": "enBusSendsLinked (unknown)",
+            "description": "Toggle channel link options bus sends",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -365,13 +365,13 @@
         },
         "enDelayLinked": {
             "argumentType": "integer",
-            "description": "enDelayLinked (unknown)",
+            "description": "Toggle channel link options delay",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
         "enDirectOutActive": {
-            "argumentType": "integer",
-            "description": "enDirectOutActive (unknown)",
+            "argumentType": null,
+            "description": "Whether or not the channel has a direct out destination set",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -419,19 +419,19 @@
         },
         "enDirInLinked": {
             "argumentType": "integer",
-            "description": "enDirInLinked (unknown)",
+            "description": "Toggle channel link options direct in",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
         "enDirOutLinked": {
             "argumentType": "integer",
-            "description": "enDirOutLinked (unknown)",
+            "description": "Toggle channel link options direct out",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
         "enDynamicsLinked": {
             "argumentType": "integer",
-            "description": "enDynamicsLinked (gate) (unknown)",
+            "description": "Toggle channel link options dynamics",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -449,7 +449,7 @@
         },
         "enDynamicsSafe": {
             "argumentType": "integer",
-            "description": "enDynamicsSafe (gate) (unknown)",
+            "description": "Toggle channel dynamics safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -467,7 +467,7 @@
         },
         "enEQSafe": {
             "argumentType": "integer",
-            "description": "enEQSafe (unknown)",
+            "description": "Toggle channel EQ safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -515,7 +515,7 @@
         },
         "enFaderAndMonoLevelLinked": {
             "argumentType": "integer",
-            "description": "enFaderAndMonoLevelLinked (unknown)",
+            "description": "Toggle channel link options fader",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -545,7 +545,7 @@
         },
         "enFaderSafe": {
             "argumentType": "integer",
-            "description": "enFaderSafe (unknown)",
+            "description": "Toggle channel fader safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -581,7 +581,7 @@
         },
         "enFiltersLinked": {
             "argumentType": "integer",
-            "description": "enFiltersLinked (unknown)",
+            "description": "Toggle channel link options filters",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -629,7 +629,7 @@
         },
         "enHeadendLinked": {
             "argumentType": "integer",
-            "description": "enHeadendLinked (unknown)",
+            "description": "Toggle channel link options input controls",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -713,7 +713,7 @@
         },
         "enInsertLinked": {
             "argumentType": "integer",
-            "description": "enInsertLinked (unknown)",
+            "description": "Toggle channel link options insert",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1289,7 +1289,7 @@
         },
         "enMicSafe": {
             "argumentType": "integer",
-            "description": "enMicSafe (unknown)",
+            "description": "Toggle channel mic safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1301,7 +1301,7 @@
         },
         "enMicSplitPhantomPowerIn": {
             "argumentType": "integer",
-            "description": "enMicSplitPhantomPowerIn (unknown)",
+            "description": "Toggle channel phantom power",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1331,7 +1331,7 @@
         },
         "enMuteLinked": {
             "argumentType": "integer",
-            "description": "enMuteLinked (unknown)",
+            "description": "Toggle channel link options mute",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1343,7 +1343,7 @@
         },
         "enMuteSafe": {
             "argumentType": "integer",
-            "description": "enMuteSafe (unknown)",
+            "description": "Toggle channel mute safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1439,7 +1439,7 @@
         },
         "enPEQLinked": {
             "argumentType": "integer",
-            "description": "enPEQLinked (unknown)",
+            "description": "Toggle channel link options EQ",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1487,7 +1487,7 @@
         },
         "enRoutingLinked": {
             "argumentType": "integer",
-            "description": "enRoutingLinked (unknown)",
+            "description": "Toggle channel link options routing",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1499,7 +1499,7 @@
         },
         "enRoutingSafe": {
             "argumentType": "integer",
-            "description": "enRoutingSafe (unknown)",
+            "description": "Toggle channel routing safe",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
@@ -1511,13 +1511,13 @@
         },
         "enSafesLinked": {
             "argumentType": "integer",
-            "description": "enSafesLinked (unknown)",
+            "description": "Toggle channel link options safes",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
         "enSoloLinked": {
             "argumentType": "integer",
-            "description": "enSoloLinked (unknown)",
+            "description": "Toggle channel link options solo",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
