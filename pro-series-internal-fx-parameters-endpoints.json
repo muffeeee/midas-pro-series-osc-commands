@@ -1,0 +1,4204 @@
+{
+    "enVirtualInternalFX": {
+        "enIFXWriteParam_1": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #1 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_2": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #2 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_3": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #3 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_4": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #4 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_5": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #5 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_6": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #6 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_7": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #7 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_8": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #8 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_9": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #9 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_10": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #10 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_11": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #11 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_12": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #12 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_13": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #13 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_14": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #14 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_15": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #15 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_16": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #16 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_17": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #17 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_18": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #18 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_19": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #19 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_20": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #20 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_21": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #21 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_22": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #22 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_23": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #23 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_24": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #24 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_25": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #25 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_26": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #26 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_27": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #27 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_28": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #28 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_29": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #29 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_30": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #30 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_31": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #31 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_32": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #32 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_33": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #33 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_34": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #34 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_35": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #35 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_36": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #36 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_37": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #37 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_38": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #38 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_39": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #39 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_40": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #40 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_41": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #41 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_42": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #42 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_43": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #43 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_44": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #44 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_45": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #45 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_46": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #46 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_47": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #47 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_48": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #48 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_49": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #49 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_50": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #50 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_51": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #51 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_52": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #52 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_53": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #53 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_54": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #54 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_55": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #55 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_56": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #56 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_57": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #57 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_58": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #58 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_59": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #59 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_60": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #60 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_61": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #61 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_62": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #62 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_63": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #63 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_64": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #64 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_65": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #65 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_66": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #66 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_67": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #67 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_68": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #68 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_69": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #69 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_70": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #70 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_71": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #71 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_72": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #72 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_73": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #73 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_74": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #74 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_75": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #75 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_76": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #76 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_77": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #77 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_78": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #78 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_79": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #79 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_80": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #80 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_81": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #81 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_82": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #82 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_83": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #83 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_84": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #84 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_85": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #85 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_86": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #86 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_87": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #87 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_88": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #88 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_89": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #89 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_90": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #90 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_91": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #91 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_92": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #92 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_93": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #93 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_94": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #94 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_95": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #95 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_96": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #96 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_97": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #97 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_98": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #98 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_99": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #99 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_100": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #100 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_101": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #101 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_102": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #102 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_103": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #103 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_104": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #104 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_105": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #105 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_106": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #106 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_107": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #107 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_108": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #108 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_109": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #109 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_110": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #110 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_111": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #111 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_112": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #112 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_113": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #113 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_114": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #114 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_115": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #115 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_116": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #116 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_117": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #117 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_118": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #118 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_119": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #119 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_120": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #120 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_121": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #121 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_122": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #122 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_123": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #123 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_124": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #124 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_125": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #125 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_126": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #126 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_127": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #127 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_128": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #128 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_129": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #129 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_130": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #130 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_131": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #131 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_132": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #132 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_133": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #133 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_134": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #134 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_135": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #135 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_136": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #136 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_137": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #137 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_138": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #138 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_139": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #139 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_140": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #140 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_141": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #141 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_142": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #142 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_143": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #143 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_144": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #144 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_145": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #145 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_146": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #146 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_147": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #147 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_148": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #148 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_149": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #149 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_150": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #150 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_151": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #151 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_152": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #152 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_153": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #153 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_154": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #154 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_155": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #155 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_156": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #156 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_157": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #157 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_158": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #158 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_159": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #159 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_160": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #160 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_161": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #161 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_162": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #162 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_163": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #163 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_164": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #164 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_165": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #165 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_166": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #166 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_167": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #167 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_168": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #168 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_169": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #169 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_170": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #170 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_171": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #171 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_172": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #172 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_173": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #173 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_174": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #174 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_175": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #175 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_176": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #176 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_177": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #177 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_178": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #178 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_179": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #179 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_180": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #180 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_181": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #181 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_182": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #182 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_183": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #183 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_184": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #184 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_185": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #185 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_186": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #186 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_187": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #187 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_188": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #188 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_189": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #189 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_190": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #190 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_191": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #191 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_192": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #192 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_193": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #193 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_194": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #194 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_195": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #195 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_196": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #196 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_197": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #197 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_198": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #198 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_199": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #199 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_200": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #200 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_201": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #201 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_202": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #202 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_203": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #203 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_204": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #204 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_205": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #205 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_206": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #206 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_207": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #207 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_208": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #208 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_209": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #209 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_210": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #210 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_211": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #211 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_212": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #212 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_213": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #213 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_214": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #214 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_215": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #215 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_216": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #216 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_217": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #217 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_218": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #218 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_219": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #219 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_220": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #220 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_221": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #221 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_222": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #222 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_223": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #223 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_224": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #224 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_225": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #225 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_226": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #226 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_227": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #227 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_228": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #228 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_229": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #229 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_230": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #230 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_231": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #231 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_232": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #232 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_233": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #233 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_234": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #234 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_235": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #235 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_236": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #236 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_237": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #237 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_238": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #238 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_239": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #239 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_240": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #240 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_241": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #241 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_242": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #242 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_243": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #243 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_244": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #244 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_245": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #245 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_246": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #246 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_247": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #247 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_248": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #248 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_249": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #249 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_250": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #250 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_251": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #251 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_252": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #252 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_253": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #253 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_254": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #254 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_255": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #255 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_256": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #256 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_257": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #257 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_258": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #258 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_259": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #259 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_260": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #260 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_261": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #261 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_262": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #262 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_263": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #263 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_264": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #264 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_265": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #265 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_266": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #266 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_267": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #267 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_268": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #268 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_269": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #269 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_270": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #270 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_271": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #271 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_272": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #272 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_273": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #273 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_274": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #274 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_275": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #275 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_276": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #276 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_277": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #277 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_278": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #278 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_279": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #279 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_280": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #280 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_281": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #281 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_282": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #282 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_283": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #283 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_284": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #284 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_285": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #285 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_286": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #286 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_287": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #287 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_288": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #288 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_289": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #289 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_290": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #290 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_291": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #291 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_292": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #292 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_293": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #293 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_294": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #294 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_295": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #295 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_296": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #296 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_297": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #297 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_298": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #298 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_299": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #299 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_300": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #300 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_301": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #301 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_302": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #302 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_303": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #303 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_304": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #304 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_305": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #305 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_306": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #306 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_307": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #307 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_308": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #308 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_309": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #309 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_310": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #310 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_311": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #311 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_312": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #312 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_313": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #313 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_314": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #314 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_315": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #315 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_316": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #316 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_317": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #317 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_318": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #318 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_319": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #319 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_320": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #320 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_321": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #321 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_322": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #322 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_323": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #323 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_324": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #324 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_325": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #325 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_326": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #326 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_327": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #327 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_328": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #328 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_329": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #329 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_330": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #330 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_331": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #331 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_332": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #332 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_333": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #333 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_334": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #334 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_335": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #335 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_336": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #336 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_337": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #337 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_338": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #338 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_339": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #339 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_340": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #340 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_341": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #341 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_342": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #342 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_343": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #343 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_344": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #344 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_345": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #345 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_346": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #346 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_347": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #347 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_348": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #348 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_349": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #349 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXWriteParam_350": {
+            "multiPath": true,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "Set a channels internal FX parameter #350 (use enIFXReadParam to read parameter)"
+        },
+        "enIFXReadParam1": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #1 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam2": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #2 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam3": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #3 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam4": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #4 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam5": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #5 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam6": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #6 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam7": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #7 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam8": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #8 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam9": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #9 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam10": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #10 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam11": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #11 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam12": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #12 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam13": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #13 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam14": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #14 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam15": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #15 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam16": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #16 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam17": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #17 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam18": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #18 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam19": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #19 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam20": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #20 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam21": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #21 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam22": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #22 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam23": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #23 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam24": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #24 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam25": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #25 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam26": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #26 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam27": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #27 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam28": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #28 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam29": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #29 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam30": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #30 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam31": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #31 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam32": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #32 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam33": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #33 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam34": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #34 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam35": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #35 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam36": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #36 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam37": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #37 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam38": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #38 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam39": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #39 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam40": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #40 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam41": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #41 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam42": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #42 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam43": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #43 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam44": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #44 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam45": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #45 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam46": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #46 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam47": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #47 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam48": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #48 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam49": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #49 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam50": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #50 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam51": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #51 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam52": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #52 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam53": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #53 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam54": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #54 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam55": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #55 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam56": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #56 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam57": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #57 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam58": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #58 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam59": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #59 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam60": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #60 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam61": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #61 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam62": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #62 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam63": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #63 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam64": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #64 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam65": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #65 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam66": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #66 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam67": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #67 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam68": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #68 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam69": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #69 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam70": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #70 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam71": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #71 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam72": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #72 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam73": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #73 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam74": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #74 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam75": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #75 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam76": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #76 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam77": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #77 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam78": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #78 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam79": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #79 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam80": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #80 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam81": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #81 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam82": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #82 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam83": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #83 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam84": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #84 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam85": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #85 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam86": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #86 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam87": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #87 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam88": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #88 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam89": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #89 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam90": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #90 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam91": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #91 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam92": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #92 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam93": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #93 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam94": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #94 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam95": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #95 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam96": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #96 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam97": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #97 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam98": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #98 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam99": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #99 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam100": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #100 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam101": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #101 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam102": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #102 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam103": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #103 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam104": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #104 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam105": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #105 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam106": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #106 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam107": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #107 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam108": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #108 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam109": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #109 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam110": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #110 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam111": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #111 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam112": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #112 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam113": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #113 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam114": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #114 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam115": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #115 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam116": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #116 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam117": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #117 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam118": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #118 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam119": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #119 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam120": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #120 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam121": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #121 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam122": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #122 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam123": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #123 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam124": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #124 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam125": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #125 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam126": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #126 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam127": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #127 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam128": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #128 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam129": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #129 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam130": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #130 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam131": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #131 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam132": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #132 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam133": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #133 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam134": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #134 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam135": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #135 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam136": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #136 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam137": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #137 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam138": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #138 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam139": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #139 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam140": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #140 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam141": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #141 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam142": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #142 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam143": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #143 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam144": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #144 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam145": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #145 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam146": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #146 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam147": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #147 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam148": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #148 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam149": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #149 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam150": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #150 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam151": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #151 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam152": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #152 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam153": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #153 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam154": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #154 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam155": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #155 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam156": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #156 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam157": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #157 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam158": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #158 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam159": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #159 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam160": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #160 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam161": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #161 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam162": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #162 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam163": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #163 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam164": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #164 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam165": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #165 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam166": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #166 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam167": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #167 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam168": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #168 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam169": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #169 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam170": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #170 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam171": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #171 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam172": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #172 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam173": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #173 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam174": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #174 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam175": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #175 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam176": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #176 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam177": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #177 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam178": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #178 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam179": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #179 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam180": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #180 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam181": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #181 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam182": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #182 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam183": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #183 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam184": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #184 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam185": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #185 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam186": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #186 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam187": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #187 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam188": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #188 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam189": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #189 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam190": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #190 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam191": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #191 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam192": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #192 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam193": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #193 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam194": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #194 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam195": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #195 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam196": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #196 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam197": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #197 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam198": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #198 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam199": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #199 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam200": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #200 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam201": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #201 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam202": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #202 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam203": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #203 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam204": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #204 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam205": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #205 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam206": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #206 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam207": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #207 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam208": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #208 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam209": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #209 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam210": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #210 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam211": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #211 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam212": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #212 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam213": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #213 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam214": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #214 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam215": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #215 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam216": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #216 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam217": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #217 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam218": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #218 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam219": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #219 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam220": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #220 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam221": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #221 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam222": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #222 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam223": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #223 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam224": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #224 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam225": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #225 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam226": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #226 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam227": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #227 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam228": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #228 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam229": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #229 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam230": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #230 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam231": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #231 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam232": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #232 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam233": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #233 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam234": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #234 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam235": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #235 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam236": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #236 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam237": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #237 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam238": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #238 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam239": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #239 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam240": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #240 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam241": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #241 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam242": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #242 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam243": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #243 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam244": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #244 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam245": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #245 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam246": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #246 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam247": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #247 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam248": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #248 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam249": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #249 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam250": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #250 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam251": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #251 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam252": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #252 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam253": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #253 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam254": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #254 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam255": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #255 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam256": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #256 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam257": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #257 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam258": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #258 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam259": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #259 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam260": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #260 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam261": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #261 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam262": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #262 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam263": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #263 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam264": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #264 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam265": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #265 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam266": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #266 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam267": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #267 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam268": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #268 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam269": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #269 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam270": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #270 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam271": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #271 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam272": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #272 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam273": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #273 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam274": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #274 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam275": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #275 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam276": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #276 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam277": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #277 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam278": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #278 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam279": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #279 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam280": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #280 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam281": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #281 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam282": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #282 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam283": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #283 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam284": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #284 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam285": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #285 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam286": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #286 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam287": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #287 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam288": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #288 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam289": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #289 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam290": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #290 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam291": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #291 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam292": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #292 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam293": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #293 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam294": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #294 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam295": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #295 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam296": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #296 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam297": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #297 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam298": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #298 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam299": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #299 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam300": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #300 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam301": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #301 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam302": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #302 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam303": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #303 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam304": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #304 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam305": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #305 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam306": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #306 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam307": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #307 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam308": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #308 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam309": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #309 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam310": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #310 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam311": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #311 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam312": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #312 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam313": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #313 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam314": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #314 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam315": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #315 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam316": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #316 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam317": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #317 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam318": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #318 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam319": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #319 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam320": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #320 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam321": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #321 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam322": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #322 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam323": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #323 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam324": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #324 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam325": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #325 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam326": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #326 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam327": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #327 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam328": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #328 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam329": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #329 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam330": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #330 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam331": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #331 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam332": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #332 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam333": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #333 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam334": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #334 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam335": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #335 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam336": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #336 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam337": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #337 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam338": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #338 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam339": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #339 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam340": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #340 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam341": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #341 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam342": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #342 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam343": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #343 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam344": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #344 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam345": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #345 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam346": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #346 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam347": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #347 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam348": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #348 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam349": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #349 (use enIFXWriteParam to write parameter)"
+        },
+        "enIFXReadParam350": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": "float",
+            "description": "Get a channels internal FX parameter #350 (use enIFXWriteParam to write parameter)"
+        }
+    }
+}

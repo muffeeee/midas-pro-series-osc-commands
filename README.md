@@ -4,6 +4,10 @@ This repository contains the commands and information necessary to control a pro
 
 The commands were partially found by reverse-engineering and disassemblying the firmware files of a Midas pro-series mixer (sorry, Midas). The resulting list of paremeter nodes were then brute-forced on a poor pro2c for about 24 hours until all working combinations were found. After this, many of them have been manually tested in order to figure out their real purpose, and meaningful descriptions have been written.
 
+This repository consists of two main files:
+- `pro-series-endpoints.json`: Contains most OSC commands
+- `pro-series-internal-fx-parameters-endpoints.json`: Contains all internal FX read/write commands. Split up as these were 700 commands alone.
+
 ## Command syntax
 The pro-series OSC commands usually consist of an OSC command consisting of three parts:
 1. The command type, one of:
