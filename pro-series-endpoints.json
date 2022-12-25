@@ -1,4 +1,150 @@
 {
+    "enVirtualDL151CPU": {
+        "enPhantomPower1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower1 (unknown)"
+        },
+        "enPhantomPower2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower2 (unknown)"
+        },
+        "enPhantomPower3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower3 (unknown)"
+        },
+        "enPhantomPower4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower4 (unknown)"
+        },
+        "enPhantomPower5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower5 (unknown)"
+        },
+        "enPhantomPower6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower6 (unknown)"
+        },
+        "enPhantomPower7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower7 (unknown)"
+        },
+        "enPhantomPower8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower8 (unknown)"
+        },
+        "enPhantomPower9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower9 (unknown)"
+        },
+        "enPhantomPower10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower10 (unknown)"
+        },
+        "enPhantomPower11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower11 (unknown)"
+        },
+        "enPhantomPower12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower12 (unknown)"
+        },
+        "enPhantomPower13": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower13 (unknown)"
+        },
+        "enPhantomPower14": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower14 (unknown)"
+        },
+        "enPhantomPower15": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower15 (unknown)"
+        },
+        "enPhantomPower16": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower16 (unknown)"
+        },
+        "enPhantomPower17": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower17 (unknown)"
+        },
+        "enPhantomPower18": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower18 (unknown)"
+        },
+        "enPhantomPower19": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower19 (unknown)"
+        },
+        "enPhantomPower20": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower20 (unknown)"
+        },
+        "enPhantomPower21": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower21 (unknown)"
+        },
+        "enPhantomPower22": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower22 (unknown)"
+        },
+        "enPhantomPower23": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower23 (unknown)"
+        },
+        "enPhantomPower24": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower24 (unknown)"
+        }
+    },
     "enGlobals": {
         "enGlobalTempo": {
             "argumentType": null,
@@ -11,6 +157,764 @@
             "description": "Get the system temperature in degrees C",
             "multiPath": false,
             "type": "enPPCRotaryMessage"
+        },
+        "enMeterPreSwitchIsHomeButton": {
+            "argumentType": "integer",
+            "description": "enMeterPreSwitchIsHomeButton (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enContinuousTapSwitchFlash": {
+            "argumentType": "integer",
+            "description": "enContinuousTapSwitchFlas (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGlobalTapSwitch": {
+            "argumentType": "integer",
+            "description": "enGlobalTapSwitch (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFootSwitch1": {
+            "argumentType": "integer",
+            "description": "Set foot switch 1 on/off",
+            "multiPath": false,
+            "isAbsolute": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFootSwitch2": {
+            "argumentType": "integer",
+            "description": "Sett foot switch 2 on/off",
+            "multiPath": false,
+            "isAbsolute": true,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEnableCollapsedFlip": {
+            "argumentType": "integer",
+            "description": "enEnableCollapsedFlip (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEnableFaderReadingOnLCDs": {
+            "argumentType": "integer",
+            "description": "Toggle fader value readout on LCDs",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRemoteServerDHCPEnabled": {
+            "argumentType": "integer",
+            "description": "Toggle remote server DHCP enabled/disabled",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDL3ExtenderFitted": {
+            "argumentType": "integer",
+            "description": "enDL3ExtenderFitted (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDaylightSaving": {
+            "argumentType": "integer",
+            "description": "enDaylightSaving (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enOutputsOnInputBay": {
+            "argumentType": "integer",
+            "description": "enOutputsOnInputBay (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPrismSecClockSelect": {
+            "argumentType": "integer",
+            "description": "enPrismSecClockSelect (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAutoClockSelect": {
+            "argumentType": "integer",
+            "description": "enAutoClockSelect (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enPreviewMode": {
+            "argumentType": "integer",
+            "description": "enPreviewMode (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSceneRecallIncludesPaging": {
+            "argumentType": "integer",
+            "description": "enSceneRecallIncludesPaging (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enHideVCARightChannels": {
+            "argumentType": "integer",
+            "description": "enHideVCARightChannels (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSlaveClockSyncGood": {
+            "argumentType": "integer",
+            "description": "enSlaveClockSyncGood (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSoloDIPotsControlsSoloTrim": {
+            "argumentType": "integer",
+            "description": "enSoloDIPotsControlsSoloTrim (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreSafedChannels": {
+            "argumentType": "integer",
+            "description": "enStoreSafedChannels (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSyncGainWithHeadAmp": {
+            "argumentType": "integer",
+            "description": "enSyncGainWithHeadAmp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderTouchDetailNavigationEnable": {
+            "argumentType": "integer",
+            "description": "enFaderTouchDetailNavigationEnable (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSendsPanFollowChannelPan": {
+            "argumentType": "integer",
+            "description": "enSendsPanFollowChannelPan (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMeterPreSwitchIsGlobalTap": {
+            "argumentType": "integer",
+            "description": "enMeterPreSwitchIsGlobalTap (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask1": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask1 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask2": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask2 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask3": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask3 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask4": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask4 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask5": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask5 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask6": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask6 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask7": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask7 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSendCopyMask8": {
+            "argumentType": "integer",
+            "description": "enMatrixSendMaskCopyMask8 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enVCAMembershipCopyMask": {
+            "argumentType": "integer",
+            "description": "enVCAMembershipCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMonitorAUnGEQ": {
+            "argumentType": "integer",
+            "description": "enMonitorAUnGEQ (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMonitorBUnGEQ": {
+            "argumentType": "integer",
+            "description": "enMonitorBUnGEQ (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRestartPandad": {
+            "argumentType": "integer",
+            "description": "enRestartPandad (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFlipSelectFollowsSolo": {
+            "argumentType": "integer",
+            "description": "enFlipSelectFollowsSolo (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputsSelectFollowsSolo": {
+            "argumentType": "integer",
+            "description": "enInputsSelectFollowsSolo (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterConsole": {
+            "argumentType": "integer",
+            "description": "enMasterConsole (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask1": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask1 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask2": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask2 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask3": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask3 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask4": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask4 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask5": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask5 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask6": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask6 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask7": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask7 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask8": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask8 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask9": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask9 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask10": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask10 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask11": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask11 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask12": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask12 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask13": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask13 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask14": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask14 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask15": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask15 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSubmixSendCopyMask16": {
+            "argumentType": "integer",
+            "description": "enSubmixSendCopyMask16 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enSendsCopyMask": {
+            "argumentType": "integer",
+            "description": "enSendsCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingCopyMask": {
+            "argumentType": "integer",
+            "description": "enRoutingCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInsertCopyMask": {
+            "argumentType": "integer",
+            "description": "enInsertCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRecallScopeCopyMask": {
+            "argumentType": "integer",
+            "description": "enRecallScopeCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreScopeCopyMask": {
+            "argumentType": "integer",
+            "description": "enStoreScopeCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreScopeSelectSingle": {
+            "argumentType": "integer",
+            "description": "enStoreScopeSelectSingle (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreScopeSelectByPathType": {
+            "argumentType": "integer",
+            "description": "enStoreScopeSelectByPathType (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreScopeSelectConsoleWide": {
+            "argumentType": "integer",
+            "description": "enStoreScopeSelectConsoleWide (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enStoreScopeSelectAllInChannel": {
+            "argumentType": "integer",
+            "description": "enStoreScopeSelectAllInChannel (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enEQCopyMask": {
+            "argumentType": "integer",
+            "description": "enEQCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDynamicsCopyMask": {
+            "argumentType": "integer",
+            "description": "enDynamicsCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGateCopyMask": {
+            "argumentType": "integer",
+            "description": "enGateCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMicCopyMask": {
+            "argumentType": "integer",
+            "description": "enMicCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderCopyMask": {
+            "argumentType": "integer",
+            "description": "enFaderCopyMask (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderFlipActive": {
+            "argumentType": "integer",
+            "description": "enFaderFlipActive (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFlipBSync": {
+            "argumentType": "integer",
+            "description": "enFlipBSync (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGainSwapMode": {
+            "argumentType": "integer",
+            "description": "enGainSwapMode (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGainSwapSync": {
+            "argumentType": "integer",
+            "description": "enGainSwapSync (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enShowNumericValue": {
+            "argumentType": "integer",
+            "description": "enShowNumericValue (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFactoryDefaults": {
+            "argumentType": "integer",
+            "description": "enFactoryDefaults (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enGlobalAlphaDebugState": {
+            "argumentType": "integer",
+            "description": "enGlobalAlphaDebugState (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enHMACSnakeMode": {
+            "argumentType": "integer",
+            "description": "enHMACSnakeMode (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enHMACSnakeModeY": {
+            "argumentType": "integer",
+            "description": "enHMACSnakeModeY (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enResetGlobals": {
+            "argumentType": "integer",
+            "description": "enResetGlobals (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRoutingInSceneScope": {
+            "argumentType": "integer",
+            "description": "enRoutingInSceneScope (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAllRecallScope": {
+            "argumentType": "integer",
+            "description": "enAllRecallScope (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enNoneRecallScope": {
+            "argumentType": "integer",
+            "description": "enNoneRecallScope (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAllStoreScope": {
+            "argumentType": "integer",
+            "description": "enAllStoreScope (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enNoneStoreScope": {
+            "argumentType": "integer",
+            "description": "enNoneStoreScope (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRecallScopeSelectSingle": {
+            "argumentType": "integer",
+            "description": "enRecallScopeSelectSingle (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRecallScopeSelectByPathType": {
+            "argumentType": "integer",
+            "description": "enRecallScopeSelectByPathType (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRecallScopeSelectConsoleWide": {
+            "argumentType": "integer",
+            "description": "enRecallScopeSelectConsoleWide (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enRecallScopeSelectAllInChannel": {
+            "argumentType": "integer",
+            "description": "enRecallScopeSelectAllInChannel (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterMasterRoutingLink": {
+            "argumentType": "integer",
+            "description": "enMasterMasterRoutingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterFaderLink": {
+            "argumentType": "integer",
+            "description": "enMasterFaderLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterDelayLink": {
+            "argumentType": "integer",
+            "description": "enMasterDelayLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterMuteLink": {
+            "argumentType": "integer",
+            "description": "enMasterMuteLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterSoloLink": {
+            "argumentType": "integer",
+            "description": "enMasterSoloLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterChangeExistingLink": {
+            "argumentType": "integer",
+            "description": "enMasterChangeExistingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enTriggerAMEDeploy": {
+            "argumentType": "integer",
+            "description": "enTriggerAMEDeploy (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExtenderPresent": {
+            "argumentType": "integer",
+            "description": "enExtenderPresent (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enExtenderLeftSide": {
+            "argumentType": "integer",
+            "description": "enExtenderLeftSide (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enFaderFlipMode": {
+            "argumentType": "integer",
+            "description": "enFaderFlipMode (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSoloLink": {
+            "argumentType": "integer",
+            "description": "enMatrixSoloLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixCollapseLink": {
+            "argumentType": "integer",
+            "description": "enMatrixCollapseLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixChangeExistingLink": {
+            "argumentType": "integer",
+            "description": "enMatrixChangeExistingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterHeadEndLink": {
+            "argumentType": "integer",
+            "description": "enMatrixHeadEndLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterDirectInLink": {
+            "argumentType": "integer",
+            "description": "enMasterDirectInLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterSafesLink": {
+            "argumentType": "integer",
+            "description": "enMasterSafesLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterDynamicsLink": {
+            "argumentType": "integer",
+            "description": "enMasterDynamicsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterInsertLink": {
+            "argumentType": "integer",
+            "description": "enMasterInsertLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterEQLink": {
+            "argumentType": "integer",
+            "description": "enMasterEQLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterBusSendsLink": {
+            "argumentType": "integer",
+            "description": "enMasterBusSendsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsMuteLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsMuteLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsSoloLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsSoloLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsChangeExistingLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsChangeExistingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixHeadEndLink": {
+            "argumentType": "integer",
+            "description": "enMatrixHeadEndLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixDirectInLink": {
+            "argumentType": "integer",
+            "description": "enMatrixDirectInLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixSafesLink": {
+            "argumentType": "integer",
+            "description": "enMatrixSafesLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixDynamicsLink": {
+            "argumentType": "integer",
+            "description": "enMatrixDynamicsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixInsertLink": {
+            "argumentType": "integer",
+            "description": "enMatrixInsertLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixEQLink": {
+            "argumentType": "integer",
+            "description": "enMatrixEQLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixMasterRoutingLink": {
+            "argumentType": "integer",
+            "description": "enMatrixMasterRoutingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixFaderLink": {
+            "argumentType": "integer",
+            "description": "enMatrixFaderLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixDelayLink": {
+            "argumentType": "integer",
+            "description": "enMatrixDelayLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMatrixMuteLink": {
+            "argumentType": "integer",
+            "description": "enMatrixMuteLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnBusSendsLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnBusSendsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnInsertLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnInsertLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnEQLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnEQLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnMuteLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnMuteLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnSoloLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnSoloLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnChangeExistingLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnChangeExistingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
         }
     },
     "enVirtualMainOuts": {
