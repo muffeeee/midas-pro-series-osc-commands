@@ -1,5 +1,293 @@
 {
     "enVirtualDL151CPU": {
+        "enOutputMeter_1": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_1 (unknown)"
+        },
+        "enOutputMeter_2": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_2 (unknown)"
+        },
+        "enOutputMeter_3": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_3 (unknown)"
+        },
+        "enOutputMeter_4": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_4 (unknown)"
+        },
+        "enOutputMeter_5": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_5 (unknown)"
+        },
+        "enOutputMeter_6": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_6 (unknown)"
+        },
+        "enOutputMeter_7": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_7 (unknown)"
+        },
+        "enOutputMeter_8": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_8 (unknown)"
+        },
+        "enOutputMeter_9": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_9 (unknown)"
+        },
+        "enOutputMeter_10": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_10 (unknown)"
+        },
+        "enOutputMeter_11": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_11 (unknown)"
+        },
+        "enOutputMeter_12": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_12 (unknown)"
+        },
+        "enOutputMeter_13": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_13 (unknown)"
+        },
+        "enOutputMeter_14": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_14 (unknown)"
+        },
+        "enOutputMeter_15": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_15 (unknown)"
+        },
+        "enOutputMeter_16": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_16 (unknown)"
+        },
+        "enOutputMeter_17": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_17 (unknown)"
+        },
+        "enOutputMeter_18": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_18 (unknown)"
+        },
+        "enOutputMeter_19": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_19 (unknown)"
+        },
+        "enOutputMeter_20": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_20 (unknown)"
+        },
+        "enOutputMeter_21": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_21 (unknown)"
+        },
+        "enOutputMeter_22": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_22 (unknown)"
+        },
+        "enOutputMeter_23": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_23 (unknown)"
+        },
+        "enOutputMeter_24": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_24 (unknown)"
+        },
+        "enInputMeter_1": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_1 (unknown)"
+        },
+        "enInputMeter_2": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_2 (unknown)"
+        },
+        "enInputMeter_3": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_3 (unknown)"
+        },
+        "enInputMeter_4": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_4 (unknown)"
+        },
+        "enInputMeter_5": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_5 (unknown)"
+        },
+        "enInputMeter_6": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_6 (unknown)"
+        },
+        "enInputMeter_7": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_7 (unknown)"
+        },
+        "enInputMeter_8": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_8 (unknown)"
+        },
+        "enInputMeter_9": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_9 (unknown)"
+        },
+        "enInputMeter_10": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_10 (unknown)"
+        },
+        "enInputMeter_11": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_11 (unknown)"
+        },
+        "enInputMeter_12": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_12 (unknown)"
+        },
+        "enInputMeter_13": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_13 (unknown)"
+        },
+        "enInputMeter_14": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_14 (unknown)"
+        },
+        "enInputMeter_15": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_15 (unknown)"
+        },
+        "enInputMeter_16": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_16 (unknown)"
+        },
+        "enInputMeter_17": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_17 (unknown)"
+        },
+        "enInputMeter_18": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_18 (unknown)"
+        },
+        "enInputMeter_19": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_19 (unknown)"
+        },
+        "enInputMeter_20": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_20 (unknown)"
+        },
+        "enInputMeter_21": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_21 (unknown)"
+        },
+        "enInputMeter_22": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_22 (unknown)"
+        },
+        "enInputMeter_23": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_23 (unknown)"
+        },
+        "enInputMeter_24": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_24 (unknown)"
+        },
         "enPhantomPower1": {
             "multiPath": true,
             "type": "enPPCSwitchMessage",
@@ -421,6 +709,116 @@
             "description": "enSnakeModeSendSlowMeters (unknown)"
         }
     },
+    "enVirtualDL3SurfaceMonitorIO": {
+        "enOutputMeter_1": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_1 (unknown)"
+        },
+        "enOutputMeter_2": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_2 (unknown)"
+        },
+        "enOutputMeter_3": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_3 (unknown)"
+        },
+        "enOutputMeter_4": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_4 (unknown)"
+        },
+        "enOutputMeter_5": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_5 (unknown)"
+        },
+        "enOutputMeter_6": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_6 (unknown)"
+        },
+        "enOutputMeter_7": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_7 (unknown)"
+        },
+        "enOutputMeter_8": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_8 (unknown)"
+        },
+        "enInputMeter_1": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_1 (unknown)"
+        },
+        "enInputMeter_2": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_2 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_1 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_2 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_3": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_3 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_4": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_4 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_5": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_5 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_6": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_6 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_7": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_7 (unknown)"
+        },
+        "enDefaultDL3SurfaceMonitorIOSwitchControls_8": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enDefaultDL3SurfaceMonitorIOSwitchControls_8 (unknown)"
+        }
+    },
     "enVirtualDL1SurfaceMonitorIO": {
         "enAES3MuteLED1": {
             "multiPath": false,
@@ -469,6 +867,1130 @@
             "type": "enPPCSwitchMessage",
             "argumentType": "integer",
             "description": "enSRCBypassOut2 (unknown)"
+        }
+    },
+    "enVirtualDL251CPU": {
+        "enOutputMeter_1": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_1 (unknown)"
+        },
+        "enOutputMeter_2": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_2 (unknown)"
+        },
+        "enOutputMeter_3": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_3 (unknown)"
+        },
+        "enOutputMeter_4": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_4 (unknown)"
+        },
+        "enOutputMeter_5": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_5 (unknown)"
+        },
+        "enOutputMeter_6": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_6 (unknown)"
+        },
+        "enOutputMeter_7": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_7 (unknown)"
+        },
+        "enOutputMeter_8": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_8 (unknown)"
+        },
+        "enOutputMeter_9": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_9 (unknown)"
+        },
+        "enOutputMeter_10": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_10 (unknown)"
+        },
+        "enOutputMeter_11": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_11 (unknown)"
+        },
+        "enOutputMeter_12": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_12 (unknown)"
+        },
+        "enOutputMeter_13": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_13 (unknown)"
+        },
+        "enOutputMeter_14": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_14 (unknown)"
+        },
+        "enOutputMeter_15": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_15 (unknown)"
+        },
+        "enOutputMeter_16": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_16 (unknown)"
+        },
+        "enOutputMeter_17": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_17 (unknown)"
+        },
+        "enOutputMeter_18": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_18 (unknown)"
+        },
+        "enOutputMeter_19": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_19 (unknown)"
+        },
+        "enOutputMeter_20": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_20 (unknown)"
+        },
+        "enOutputMeter_21": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_21 (unknown)"
+        },
+        "enOutputMeter_22": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_22 (unknown)"
+        },
+        "enOutputMeter_23": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_23 (unknown)"
+        },
+        "enOutputMeter_24": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_24 (unknown)"
+        },
+        "enOutputMeter_25": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_25 (unknown)"
+        },
+        "enOutputMeter_26": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_26 (unknown)"
+        },
+        "enOutputMeter_27": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_27 (unknown)"
+        },
+        "enOutputMeter_28": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_28 (unknown)"
+        },
+        "enOutputMeter_29": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_29 (unknown)"
+        },
+        "enOutputMeter_30": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_30 (unknown)"
+        },
+        "enOutputMeter_31": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_31 (unknown)"
+        },
+        "enOutputMeter_32": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_32 (unknown)"
+        },
+        "enOutputMeter_33": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_33 (unknown)"
+        },
+        "enOutputMeter_34": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_34 (unknown)"
+        },
+        "enOutputMeter_35": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_35 (unknown)"
+        },
+        "enOutputMeter_36": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_36 (unknown)"
+        },
+        "enOutputMeter_37": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_37 (unknown)"
+        },
+        "enOutputMeter_38": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_38 (unknown)"
+        },
+        "enOutputMeter_39": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_39 (unknown)"
+        },
+        "enOutputMeter_40": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_40 (unknown)"
+        },
+        "enOutputMeter_41": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_41 (unknown)"
+        },
+        "enOutputMeter_42": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_42 (unknown)"
+        },
+        "enOutputMeter_43": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_43 (unknown)"
+        },
+        "enOutputMeter_44": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_44 (unknown)"
+        },
+        "enOutputMeter_45": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_45 (unknown)"
+        },
+        "enOutputMeter_46": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_46 (unknown)"
+        },
+        "enOutputMeter_47": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_47 (unknown)"
+        },
+        "enOutputMeter_48": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputMeter_48 (unknown)"
+        },
+        "enInputMeter_1": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_1 (unknown)"
+        },
+        "enInputMeter_2": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_2 (unknown)"
+        },
+        "enInputMeter_3": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_3 (unknown)"
+        },
+        "enInputMeter_4": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_4 (unknown)"
+        },
+        "enInputMeter_5": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_5 (unknown)"
+        },
+        "enInputMeter_6": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_6 (unknown)"
+        },
+        "enInputMeter_7": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_7 (unknown)"
+        },
+        "enInputMeter_8": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_8 (unknown)"
+        },
+        "enInputMeter_9": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_9 (unknown)"
+        },
+        "enInputMeter_10": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_10 (unknown)"
+        },
+        "enInputMeter_11": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_11 (unknown)"
+        },
+        "enInputMeter_12": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_12 (unknown)"
+        },
+        "enInputMeter_13": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_13 (unknown)"
+        },
+        "enInputMeter_14": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_14 (unknown)"
+        },
+        "enInputMeter_15": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_15 (unknown)"
+        },
+        "enInputMeter_16": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_16 (unknown)"
+        },
+        "enInputMeter_17": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_17 (unknown)"
+        },
+        "enInputMeter_18": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_18 (unknown)"
+        },
+        "enInputMeter_19": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_19 (unknown)"
+        },
+        "enInputMeter_20": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_20 (unknown)"
+        },
+        "enInputMeter_21": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_21 (unknown)"
+        },
+        "enInputMeter_22": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_22 (unknown)"
+        },
+        "enInputMeter_23": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_23 (unknown)"
+        },
+        "enInputMeter_24": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_24 (unknown)"
+        },
+        "enInputMeter_25": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_25 (unknown)"
+        },
+        "enInputMeter_26": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_26 (unknown)"
+        },
+        "enInputMeter_27": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_27 (unknown)"
+        },
+        "enInputMeter_28": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_28 (unknown)"
+        },
+        "enInputMeter_29": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_29 (unknown)"
+        },
+        "enInputMeter_30": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_30 (unknown)"
+        },
+        "enInputMeter_31": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_31 (unknown)"
+        },
+        "enInputMeter_32": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_32 (unknown)"
+        },
+        "enInputMeter_33": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_33 (unknown)"
+        },
+        "enInputMeter_34": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_34 (unknown)"
+        },
+        "enInputMeter_35": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_35 (unknown)"
+        },
+        "enInputMeter_36": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_36 (unknown)"
+        },
+        "enInputMeter_37": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_37 (unknown)"
+        },
+        "enInputMeter_38": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_38 (unknown)"
+        },
+        "enInputMeter_39": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_39 (unknown)"
+        },
+        "enInputMeter_40": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_40 (unknown)"
+        },
+        "enInputMeter_41": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_41 (unknown)"
+        },
+        "enInputMeter_42": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_42 (unknown)"
+        },
+        "enInputMeter_43": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_43 (unknown)"
+        },
+        "enInputMeter_44": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_44 (unknown)"
+        },
+        "enInputMeter_45": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_45 (unknown)"
+        },
+        "enInputMeter_46": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_46 (unknown)"
+        },
+        "enInputMeter_47": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_47 (unknown)"
+        },
+        "enInputMeter_48": {
+            "multiPath": true,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enInputMeter_48 (unknown)"
+        },
+        "enPhantomPower1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower1 (unknown)"
+        },
+        "enPhantomPower2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower2 (unknown)"
+        },
+        "enPhantomPower3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower3 (unknown)"
+        },
+        "enPhantomPower4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower4 (unknown)"
+        },
+        "enPhantomPower5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower5 (unknown)"
+        },
+        "enPhantomPower6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower6 (unknown)"
+        },
+        "enPhantomPower7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower7 (unknown)"
+        },
+        "enPhantomPower8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower8 (unknown)"
+        },
+        "enPhantomPower9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower9 (unknown)"
+        },
+        "enPhantomPower10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower10 (unknown)"
+        },
+        "enPhantomPower11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower11 (unknown)"
+        },
+        "enPhantomPower12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower12 (unknown)"
+        },
+        "enPhantomPower13": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower13 (unknown)"
+        },
+        "enPhantomPower14": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower14 (unknown)"
+        },
+        "enPhantomPower15": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower15 (unknown)"
+        },
+        "enPhantomPower16": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower16 (unknown)"
+        },
+        "enPhantomPower17": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower17 (unknown)"
+        },
+        "enPhantomPower18": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower18 (unknown)"
+        },
+        "enPhantomPower19": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower19 (unknown)"
+        },
+        "enPhantomPower20": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower20 (unknown)"
+        },
+        "enPhantomPower21": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower21 (unknown)"
+        },
+        "enPhantomPower22": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower22 (unknown)"
+        },
+        "enPhantomPower23": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower23 (unknown)"
+        },
+        "enPhantomPower24": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower24 (unknown)"
+        },
+        "enPhantomPower25": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower25 (unknown)"
+        },
+        "enPhantomPower26": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower26 (unknown)"
+        },
+        "enPhantomPower27": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower27 (unknown)"
+        },
+        "enPhantomPower28": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower28 (unknown)"
+        },
+        "enPhantomPower29": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower29 (unknown)"
+        },
+        "enPhantomPower30": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower30 (unknown)"
+        },
+        "enPhantomPower31": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower31 (unknown)"
+        },
+        "enPhantomPower32": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower32 (unknown)"
+        },
+        "enPhantomPower33": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower33 (unknown)"
+        },
+        "enPhantomPower34": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower34 (unknown)"
+        },
+        "enPhantomPower35": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower35 (unknown)"
+        },
+        "enPhantomPower36": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower36 (unknown)"
+        },
+        "enPhantomPower37": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower37 (unknown)"
+        },
+        "enPhantomPower38": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower38 (unknown)"
+        },
+        "enPhantomPower39": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower39 (unknown)"
+        },
+        "enPhantomPower40": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower40 (unknown)"
+        },
+        "enPhantomPower41": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower41 (unknown)"
+        },
+        "enPhantomPower42": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower42 (unknown)"
+        },
+        "enPhantomPower43": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower43 (unknown)"
+        },
+        "enPhantomPower44": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower44 (unknown)"
+        },
+        "enPhantomPower45": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower45 (unknown)"
+        },
+        "enPhantomPower46": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower46 (unknown)"
+        },
+        "enPhantomPower47": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower47 (unknown)"
+        },
+        "enPhantomPower48": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enPhantomPower48 (unknown)"
+        },
+        "enMIDITxDisable1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable1 (unknown)"
+        },
+        "enMIDITxDisable2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable2 (unknown)"
+        },
+        "enMIDITxDisable3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable3 (unknown)"
+        },
+        "enMIDITxDisable4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable4 (unknown)"
+        },
+        "enMIDITxDisable5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable5 (unknown)"
+        },
+        "enMIDITxDisable6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable6 (unknown)"
+        },
+        "enMIDITxDisable7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable7 (unknown)"
+        },
+        "enMIDITxDisable8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable8 (unknown)"
+        },
+        "enMIDITxDisable9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable9 (unknown)"
+        },
+        "enMIDITxDisable10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable10 (unknown)"
+        },
+        "enMIDITxDisable11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable11 (unknown)"
+        },
+        "enMIDITxDisable12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable12 (unknown)"
+        },
+        "enMIDITxDisable13": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable13 (unknown)"
+        },
+        "enMIDITxDisable14": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable14 (unknown)"
+        },
+        "enMIDITxDisable15": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable15 (unknown)"
+        },
+        "enMIDITxDisable16": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDITxDisable16 (unknown)"
+        },
+        "enMIDIRxDisable1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable1 (unknown)"
+        },
+        "enMIDIRxDisable2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable2 (unknown)"
+        },
+        "enMIDIRxDisable3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable3 (unknown)"
+        },
+        "enMIDIRxDisable4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable4 (unknown)"
+        },
+        "enMIDIRxDisable5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable5 (unknown)"
+        },
+        "enMIDIRxDisable6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable6 (unknown)"
+        },
+        "enMIDIRxDisable7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable7 (unknown)"
+        },
+        "enMIDIRxDisable8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable8 (unknown)"
+        },
+        "enMIDIRxDisable9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable9 (unknown)"
+        },
+        "enMIDIRxDisable10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable10 (unknown)"
+        },
+        "enMIDIRxDisable11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable11 (unknown)"
+        },
+        "enMIDIRxDisable12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable12 (unknown)"
+        },
+        "enMIDIRxDisable13": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable13 (unknown)"
+        },
+        "enMIDIRxDisable14": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable14 (unknown)"
+        },
+        "enMIDIRxDisable15": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable15 (unknown)"
+        },
+        "enMIDIRxDisable16": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enMIDIRxDisable16 (unknown)"
+        },
+        "enSnakeModeStopSendingSettings": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSnakeModeStopSendingSettings (unknown)"
+        },
+        "enSnakeModeSendSlowMeters": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSnakeModeSendSlowMeters (unknown)"
+        },
+        "enSMACIntSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACIntSync (unknown)"
+        },
+        "enSMACExtSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACExtSync (unknown)"
+        },
+        "enSMACCableSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACCableSync (unknown)"
+        },
+        "enSMACOtherExtSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACOtherExtSync (unknown)"
+        },
+        "enSMACASync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACASync (unknown)"
+        },
+        "enSMACBSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACBSync (unknown)"
+        },
+        "enSMAC48kBase": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMAC48kBase (unknown)"
+        },
+        "enSMAC44k1Base": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMAC44k1Base (unknown)"
+        },
+        "enSMACx2MultBase": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACx2MultBase (unknown)"
         }
     },
     "enVirtualDL2SurfaceMonitorIO": {
