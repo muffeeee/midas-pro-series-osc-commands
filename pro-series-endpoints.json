@@ -6927,6 +6927,104 @@
             "type": "enPPCSwitchMessage"
         }
     },
+    "enVirtualMonitors": {
+        "enAssignableCtrlTouch_1": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 1 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_2": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 2 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_3": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 3 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_4": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 4 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_5": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 5 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_6": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 6 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_7": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 7 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlTouch_8": {
+            "argumentType": "integer",
+            "description": "Set or get the touch state for assignable control input 8 (which is responsible for showing the on-screen crosshair on the controls that this assignable control is assigned to)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_1": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 1",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_2": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 2",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_3": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 3",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_4": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 4",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_5": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 5",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_6": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 6",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_7": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 7",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAssignableCtrlLCD_8": {
+            "argumentType": "integer",
+            "description": "Toggle the LED on/off on assignable control input 8",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        }
+    },
     "enVirtualSubMixes": {
         "enFaderLevel": {
             "argumentType": "float",
