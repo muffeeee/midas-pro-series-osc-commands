@@ -143,6 +143,382 @@
             "type": "enPPCSwitchMessage",
             "argumentType": "integer",
             "description": "enPhantomPower24 (unknown)"
+        },
+        "enAES3MuteLED1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED1 (unknown)"
+        },
+        "enAES3MuteLED2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED2 (unknown)"
+        },
+        "enAES3MuteLED3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED3 (unknown)"
+        },
+        "enAES3MuteLED4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED4 (unknown)"
+        },
+        "enAES3MuteLED5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED5 (unknown)"
+        },
+        "enAES3MuteLED6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED6 (unknown)"
+        },
+        "enAES3MuteLED7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED7 (unknown)"
+        },
+        "enAES3MuteLED8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED8 (unknown)"
+        },
+        "enAES3MuteLED9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED9 (unknown)"
+        },
+        "enAES3MuteLED10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED10 (unknown)"
+        },
+        "enAES3MuteLED11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED11 (unknown)"
+        },
+        "enAES3MuteLED12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAES3MuteLED12 (unknown)"
+        },
+        "enSRCBypassIn1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn1 (unknown)"
+        },
+        "enSRCBypassIn2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn2 (unknown)"
+        },
+        "enSRCBypassIn3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn3 (unknown)"
+        },
+        "enSRCBypassIn4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn4 (unknown)"
+        },
+        "enSRCBypassIn5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn5 (unknown)"
+        },
+        "enSRCBypassIn6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn6 (unknown)"
+        },
+        "enSRCBypassIn7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn7 (unknown)"
+        },
+        "enSRCBypassIn8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn8 (unknown)"
+        },
+        "enSRCBypassIn9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn9 (unknown)"
+        },
+        "enSRCBypassIn10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn10 (unknown)"
+        },
+        "enSRCBypassIn11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn11 (unknown)"
+        },
+        "enSRCBypassIn12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn12 (unknown)"
+        },
+        "enSRCBypassOut1": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut1 (unknown)"
+        },
+        "enSRCBypassOut2": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut2 (unknown)"
+        },
+        "enSRCBypassOut3": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut3 (unknown)"
+        },
+        "enSRCBypassOut4": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut4 (unknown)"
+        },
+        "enSRCBypassOut5": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut5 (unknown)"
+        },
+        "enSRCBypassOut6": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut6 (unknown)"
+        },
+        "enSRCBypassOut7": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut7 (unknown)"
+        },
+        "enSRCBypassOut8": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut8 (unknown)"
+        },
+        "enSRCBypassOut9": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut9 (unknown)"
+        },
+        "enSRCBypassOut10": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut10 (unknown)"
+        },
+        "enSRCBypassOut11": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut11 (unknown)"
+        },
+        "enSRCBypassOut12": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut12 (unknown)"
+        },
+        "enSMACIntSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACIntSync (unknown)"
+        },
+        "enSMACExtSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACExtSync (unknown)"
+        },
+        "enSMACCableSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACCableSync (unknown)"
+        },
+        "enSMACASync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACASync (unknown)"
+        },
+        "enSMACBSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACBSync (unknown)"
+        },
+        "enSMACOtherExtSync": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACOtherExtSync (unknown)"
+        },
+        "enSMAC48kBase": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMAC44k1Base (unknown)"
+        },
+        "enSMACx2MultBase": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSMACx2MultBase (unknown)"
+        },
+        "enSnakeModeStopSendingSettings": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSnakeModeStopSendingSettings (unknown)"
+        },
+        "enSnakeModeSendSlowMeters": {
+            "multiPath": true,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSnakeModeSendSlowMeters (unknown)"
+        }
+    },
+    "enVirtualDL1SurfaceMonitorIO": {
+        "enAES3MuteLED1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED1 (unknown)"
+        },
+        "enAES3MuteLED2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED2 (unknown)"
+        },
+        "enAES3MuteLED3": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED3 (unknown)"
+        },
+        "enAES3MuteLED4": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED4 (unknown)"
+        },
+        "enSRCBypassIn1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn1 (unknown)"
+        },
+        "enSRCBypassIn2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn2 (unknown)"
+        },
+        "enSRCBypassOut1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut1 (unknown)"
+        },
+        "enSRCBypassOut2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut2 (unknown)"
+        }
+    },
+    "enVirtualDL2SurfaceMonitorIO": {
+        "enAES3MuteLED1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED1 (unknown)"
+        },
+        "enAES3MuteLED2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED2 (unknown)"
+        },
+        "enAES3MuteLED3": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED3 (unknown)"
+        },
+        "enAES3MuteLED4": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enAESMuteLED4 (unknown)"
+        },
+        "enSRCBypassIn1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn1 (unknown)"
+        },
+        "enSRCBypassIn2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassIn2 (unknown)"
+        },
+        "enSRCBypassOut1": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut1 (unknown)"
+        },
+        "enSRCBypassOut2": {
+            "multiPath": false,
+            "type": "enPPCSwitchMessage",
+            "argumentType": "integer",
+            "description": "enSRCBypassOut2 (unknown)"
         }
     },
     "enGlobals": {
@@ -915,6 +1291,888 @@
             "description": "enAuxReturnChangeExistingLink (unknown)",
             "multiPath": false,
             "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsHeadEndLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsHeadEndLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsDirectInLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsDirectInLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsSafesLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsSafesLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsDynamicsLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsDynamicsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsInsertLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsInsertLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsEQLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsEQLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsBusSendsLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsBusSendsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsMasterRoutingLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsMasterRoutingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsFaderLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsFaderLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendsDelayLink": {
+            "argumentType": "integer",
+            "description": "enAuxSendsDelayLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelBusSendsLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelBusSendsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelMasterRoutingLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelMasterRoutingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelFaderLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelFaderLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelDelayLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelDelayLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelMuteLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelMuteLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelSoloLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelSoloLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelChangeExistingLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelChangeExistingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnHeadEndLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnHeadEndLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnSafesLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnSafesLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnMasterRoutingLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnMasterRoutingLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnFaderLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnFaderLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxReturnDelayLink": {
+            "argumentType": "integer",
+            "description": "enAuxReturnDelayLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterMatrixAlignmentDelayComp": {
+            "argumentType": "integer",
+            "description": "enMasterMatrixAlignmentDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterToMatrixPostProcessing": {
+            "argumentType": "integer",
+            "description": "enMasterToMatrixPostProcessing (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enDSPMuteTimeoutEnable": {
+            "argumentType": "integer",
+            "description": "enDSPMuteTimeoutEnable (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelHeadEndLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelHeadEndLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelDirectOutputLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelDirectOutputLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelSafesLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelSafesLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelDynamicsLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelDynamicsLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelInsertLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelInsertLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputChannelEQLink": {
+            "argumentType": "integer",
+            "description": "enInputChannelEQLink (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMeterDelayEnable": {
+            "argumentType": "integer",
+            "description": "enMeterDelayEnable (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMeterPeakHoldEnable": {
+            "argumentType": "integer",
+            "description": "enMeterPeakHoldEnable (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMeterPrePostSelect": {
+            "argumentType": "integer",
+            "description": "enMeterPrePostSelect (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enVirtualSoundCheckActive": {
+            "argumentType": "integer",
+            "description": "enVirtualSoundCheckActive (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enLEDFlashClock1": {
+            "argumentType": "integer",
+            "description": "enLEDFlashClock1 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enLEDFlashClock2": {
+            "argumentType": "integer",
+            "description": "enLEDFlashClock2 (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enInputInsertDelayComp": {
+            "argumentType": "integer",
+            "description": "enInputInsertDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxInsertDelayComp": {
+            "argumentType": "integer",
+            "description": "enAuxInsertDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxSendReturnDelayComp": {
+            "argumentType": "integer",
+            "description": "enAuxSendReturnDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterMainInsertDelayComp": {
+            "argumentType": "integer",
+            "description": "enMasterMainInsertDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxGEQDelayComp": {
+            "argumentType": "integer",
+            "description": "enAuxGEQDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enMasterMainGEQDelayComp": {
+            "argumentType": "integer",
+            "description": "enMasterMainGEQDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAuxAlignmentDelayComp": {
+            "argumentType": "integer",
+            "description": "enAuxAlignmentDelayComp (unknown)",
+            "multiPath": false,
+            "type": "enPPCSwitchMessage"
+        },
+        "enAmelinkRing0Status1": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status1 (unknown)"
+        },
+        "enAmelinkRing0Status2": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status2 (unknown)"
+        },
+        "enAmelinkRing0Status3": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status3 (unknown)"
+        },
+        "enAmelinkRing0Status4": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status4 (unknown)"
+        },
+        "enAmelinkRing0Status5": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status5 (unknown)"
+        },
+        "enAmelinkRing0Status6": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status6 (unknown)"
+        },
+        "enAmelinkRing0Status7": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status7 (unknown)"
+        },
+        "enAmelinkRing0Status8": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status8 (unknown)"
+        },
+        "enAmelinkRing0Status9": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status9 (unknown)"
+        },
+        "enAmelinkRing0Status10": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing0Status10 (unknown)"
+        },
+        "enAmelinkRing1Status1": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status1 (unknown)"
+        },
+        "enAmelinkRing1Status2": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status2 (unknown)"
+        },
+        "enAmelinkRing1Status3": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status3 (unknown)"
+        },
+        "enAmelinkRing1Status4": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status4 (unknown)"
+        },
+        "enAmelinkRing1Status5": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status5 (unknown)"
+        },
+        "enAmelinkRing1Status6": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status6 (unknown)"
+        },
+        "enAmelinkRing1Status7": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status7 (unknown)"
+        },
+        "enAmelinkRing1Status8": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status8 (unknown)"
+        },
+        "enAmelinkRing1Status9": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status9 (unknown)"
+        },
+        "enAmelinkRing1Status10": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAmelinkRing1Status10 (unknown)"
+        },
+        "enAMEInputUsage": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAMEInputUsage (unknown)"
+        },
+        "enAMEOutputUsage": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAMEOutputUsage (unknown)"
+        },
+        "enAMEDeployProgress": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enAMEDeployProgress (unknown)"
+        },
+        "enMeterDelay": {
+            "multiPath": false,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "enMeterDelay (unknown)"
+        },
+        "enMeterAttack": {
+            "multiPath": false,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "enMeterAttack (unknown)"
+        },
+        "enMeterDecay": {
+            "multiPath": false,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "enMeterDecay (unknown)"
+        },
+        "enPeakHoldTime": {
+            "multiPath": false,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "enPeakHoldTime (unknown)"
+        },
+        "enDSPMuteTimeout": {
+            "multiPath": false,
+            "type": "enPPCRotaryMessage",
+            "argumentType": "float",
+            "description": "enDSPMuteTimeout (unknown)"
+        },
+        "enOutputNameList1": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList1 (unknown)"
+        },
+        "enOutputNameList2": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList2 (unknown)"
+        },
+        "enOutputNameList3": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList3 (unknown)"
+        },
+        "enOutputNameList4": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList4 (unknown)"
+        },
+        "enOutputNameList5": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList5 (unknown)"
+        },
+        "enOutputNameList6": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList6 (unknown)"
+        },
+        "enOutputNameList7": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList7 (unknown)"
+        },
+        "enOutputNameList8": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList8 (unknown)"
+        },
+        "enOutputNameList9": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList9 (unknown)"
+        },
+        "enOutputNameList10": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList10 (unknown)"
+        },
+        "enOutputNameList11": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList11 (unknown)"
+        },
+        "enOutputNameList12": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList12 (unknown)"
+        },
+        "enOutputNameList13": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList13 (unknown)"
+        },
+        "enOutputNameList14": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList14 (unknown)"
+        },
+        "enOutputNameList15": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList15 (unknown)"
+        },
+        "enOutputNameList16": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList16 (unknown)"
+        },
+        "enOutputNameList17": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList17 (unknown)"
+        },
+        "enOutputNameList18": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList18 (unknown)"
+        },
+        "enOutputNameList19": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList19 (unknown)"
+        },
+        "enOutputNameList20": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList20 (unknown)"
+        },
+        "enOutputNameList21": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList21 (unknown)"
+        },
+        "enOutputNameList22": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList22 (unknown)"
+        },
+        "enOutputNameList23": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList23 (unknown)"
+        },
+        "enOutputNameList24": {
+            "multiPath": false,
+            "type": "enPPCMeterMessage",
+            "argumentType": null,
+            "description": "enOutputNameList24 (unknown)"
+        },
+        "enInputNameList1": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList1 (unknown)"
+        },
+        "enInputNameList2": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList2 (unknown)"
+        },
+        "enInputNameList3": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList3 (unknown)"
+        },
+        "enInputNameList4": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList4 (unknown)"
+        },
+        "enInputNameList5": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList5 (unknown)"
+        },
+        "enInputNameList6": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList6 (unknown)"
+        },
+        "enInputNameList7": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList7 (unknown)"
+        },
+        "enInputNameList8": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList8 (unknown)"
+        },
+        "enInputNameList9": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList9 (unknown)"
+        },
+        "enInputNameList10": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList10 (unknown)"
+        },
+        "enInputNameList11": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList11 (unknown)"
+        },
+        "enInputNameList12": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList12 (unknown)"
+        },
+        "enInputNameList13": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList13 (unknown)"
+        },
+        "enInputNameList14": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList14 (unknown)"
+        },
+        "enInputNameList15": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList15 (unknown)"
+        },
+        "enInputNameList16": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList16 (unknown)"
+        },
+        "enInputNameList17": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList17 (unknown)"
+        },
+        "enInputNameList18": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList18 (unknown)"
+        },
+        "enInputNameList19": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList19 (unknown)"
+        },
+        "enInputNameList20": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList20 (unknown)"
+        },
+        "enInputNameList21": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList21 (unknown)"
+        },
+        "enInputNameList22": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList22 (unknown)"
+        },
+        "enInputNameList23": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList23 (unknown)"
+        },
+        "enInputNameList24": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enInputNameList24 (unknown)"
+        },
+        "AMURoleStatus1": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus1 (unknown)"
+        },
+        "AMURoleStatus2": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus2 (unknown)"
+        },
+        "AMURoleStatus3": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus3 (unknown)"
+        },
+        "AMURoleStatus4": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus4 (unknown)"
+        },
+        "AMURoleStatus5": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus5 (unknown)"
+        },
+        "AMURoleStatus6": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus6 (unknown)"
+        },
+        "AMURoleStatus7": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus7 (unknown)"
+        },
+        "AMURoleStatus8": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus8 (unknown)"
+        },
+        "AMURoleStatus9": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus9 (unknown)"
+        },
+        "AMURoleStatus10": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "AMURoleStatus10 (unknown)"
+        },
+        "enTestID1": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID1 (unknown)"
+        },
+        "enTestID2": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID2 (unknown)"
+        },
+        "enTestID3": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID3 (unknown)"
+        },
+        "enTestID4": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID4 (unknown)"
+        },
+        "enTestID5": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID5 (unknown)"
+        },
+        "enTestID6": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID6 (unknown)"
+        },
+        "enTestID7": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID7 (unknown)"
+        },
+        "enTestID8": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID8 (unknown)"
+        },
+        "enTestID9": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID9 (unknown)"
+        },
+        "enTestID10": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID10 (unknown)"
+        },
+        "enTestID11": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID11 (unknown)"
+        },
+        "enTestID12": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID12 (unknown)"
+        },
+        "enTestID13": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID13 (unknown)"
+        },
+        "enTestID14": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID14 (unknown)"
+        },
+        "enTestID15": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID15 (unknown)"
+        },
+        "enTestID16": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enTestID16 (unknown)"
+        },
+        "enRemoteServerName": {
+            "multiPath": false,
+            "type": "enPPCStringMessage",
+            "argumentType": "string",
+            "description": "enRemoteServerName (unknown)"
         }
     },
     "enVirtualMainOuts": {
