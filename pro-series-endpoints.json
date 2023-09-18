@@ -20094,7 +20094,7 @@
         },
         "enMuteGroupMute": {
             "argumentType": null,
-            "description": "enMuteGroupMute (unknown)",
+            "description": "This toggles the mute groups to be muted or unmuted.",
             "multiPath": true,
             "type": "enPPCSwitchMessage"
         },
