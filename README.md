@@ -8,6 +8,10 @@ This repository consists of two main files:
 - `pro-series-endpoints.json`: Contains all OSC commands
 - `pro-series-internal-fx-parameters-endpoints.json`: Contains all internal FX read/write commands. Split up as these were 700 commands alone.
 
+## Are you using this in your project?
+Feel free to do so (for my part at least - I don't know what Midas might think, you should probably ask).
+The only thing I wish is if you could let me know, so I could see what cool things this tiny project turned into. Feel free to create an issue and tell us about what you're using this for :)
+
 ## Command syntax
 The pro-series OSC commands usually consist of an OSC command consisting of three parts:
 1. The command type, one of:
